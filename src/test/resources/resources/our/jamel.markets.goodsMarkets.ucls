@@ -1,0 +1,82 @@
+<class-diagram version="1.0.6" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="jamel.markets.goodsMarkets.GoodsOffer" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/markets/goodsMarkets/GoodsOffer.java" binary="false">    
+    <position height="131" width="177" x="50" y="385"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="jamel.markets.goods.GoodsMarket" project="meddon-jammel" 
+    file="/meddon-jammel/src/main/java/jamel/markets/goods/GoodsMarket.java" binary="false">    
+    <position height="291" width="389" x="102" y="54"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" name="jamel.markets.goodsMarkets.Provider" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/markets/goodsMarkets/Provider.java" binary="false">    
+    <position height="99" width="193" x="248" y="620"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" corner="BOTTOM_RIGHT" language="java" name="jamel.markets.Consumer" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/markets/goodsMarkets/Consumer.java" binary="false">    
+    <position height="83" width="127" x="-117" y="385"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="jamel.markets.goodsMarkets.GoodsMarketData" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/markets/goodsMarkets/GoodsMarketData.java" binary="false">    
+    <position height="195" width="203" x="288" y="385"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association id="6">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="7" name="consumersList"/>      
+      <multiplicity id="8" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="9">    
+    <bendpoint x="257" y="385"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="10" name="providersList"/>      
+      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="13">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="14" name="data"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,5 @@
+package jamel.spheres.monetary.exceptions;
+
+public class BankFailureException extends RuntimeException {
+
+}

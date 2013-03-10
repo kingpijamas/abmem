@@ -1,0 +1,10651 @@
+Exception in thread "main" java.io.IOException: Resource not found: "org/joda/time/tz/data/ZoneInfoMap" ClassLoader: sun.misc.Launcher$AppClassLoader@9cab16
+	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:211)
+	at org.joda.time.tz.ZoneInfoProvider.<init>(ZoneInfoProvider.java:123)
+	at org.joda.time.tz.ZoneInfoProvider.<init>(ZoneInfoProvider.java:82)
+	at org.joda.time.DateTimeZone.getDefaultProvider(DateTimeZone.java:462)
+	at org.joda.time.DateTimeZone.setProvider0(DateTimeZone.java:416)
+	at org.joda.time.DateTimeZone.<clinit>(DateTimeZone.java:115)
+	at org.joda.time.chrono.GregorianChronology.<clinit>(GregorianChronology.java:71)
+	at org.joda.time.chrono.ISOChronology.<clinit>(ISOChronology.java:66)
+	at org.joda.time.base.BaseDateTime.<init>(BaseDateTime.java:196)
+	at org.joda.time.DateTime.<init>(DateTime.java:307)
+	at main.Main.main(Main.java:18)
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 0
+Total value: 0
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 0
+Inflation rate(last period): NaN
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 0.0(base:0.0)
+Average Dividend: 0
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 1
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 0
+Total value: 0
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 0
+Inflation rate(last period): NaN
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 0
+Debts: 0(doubtful:0)
+Capital adequacy: 0
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 0
+Debts: 0(doubtful:0)
+Capital adequacy: 0
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-02T01:01:00.000Z(1)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 0.0(base:0.0)
+Average Dividend: 0
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 0
+Total value: 0
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 0
+Inflation rate(last period): NaN
+Unemployment rate: 46.666666666666664
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 0.0(base:0.0)
+Average Dividend: 0
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 0
+Total value: 0
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 0
+Inflation rate(last period): NaN
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 0
+Debts: 17576(doubtful:0)
+Capital adequacy: 17576
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 0
+Debts: 17576(doubtful:0)
+Capital adequacy: 17576
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-03T01:01:00.000Z(2)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 0.0(base:0.0)
+Average Dividend: 0
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1500
+Total value: 43861
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 29
+Inflation rate(last period): Infinity
+Unemployment rate: 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 0.0(base:0.0)
+Average Dividend: 0
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 623000
+Total value: 25543000
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 41
+Inflation rate(last period): Infinity
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 0
+Debts: 86326(doubtful:0)
+Capital adequacy: 86326
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 0
+Debts: 86326(doubtful:0)
+Capital adequacy: 86326
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-04T01:01:00.000Z(3)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 0.0(base:0.0)
+Average Dividend: 0
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 3000
+Total value: 95125
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 31
+Inflation rate(last period): 6.896551724137931
+Unemployment rate: 23.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 462435.0(base:0.0)
+Average Dividend: 4624
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1290500
+Total value: 52910500
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 41
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 17576
+Debts: 670515(doubtful:0)
+Capital adequacy: 652939
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 17576
+Debts: 670515(doubtful:0)
+Capital adequacy: 652939
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-05T01:01:00.000Z(4)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 462435.0(base:0.0)
+Average Dividend: 4624
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 4500
+Total value: 153585
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 34
+Inflation rate(last period): 9.67741935483871
+Unemployment rate: 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 676850.0(base:0.0)
+Average Dividend: 6768
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 2581000
+Total value: 99591000
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 38
+Inflation rate(last period): -7.317073170731708
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 86326
+Debts: 1530244(doubtful:0)
+Capital adequacy: 1443918
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 86326
+Debts: 1530244(doubtful:0)
+Capital adequacy: 1443918
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-06T01:01:00.000Z(5)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 676850.0(base:0.0)
+Average Dividend: 6768
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 6000
+Total value: 212049
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 35
+Inflation rate(last period): 2.9411764705882355
+Unemployment rate: 22.266666666666666
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1107684.0(base:0.0)
+Average Dividend: 11076
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 3916000
+Total value: 147651000
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 37
+Inflation rate(last period): -2.6315789473684212
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 668374
+Debts: 2883651(doubtful:0)
+Capital adequacy: 2215277
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 668374
+Debts: 2883651(doubtful:0)
+Capital adequacy: 2215277
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-07T01:01:00.000Z(6)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1107684.0(base:0.0)
+Average Dividend: 11076
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 7500
+Total value: 264628
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 35
+Inflation rate(last period): 0.0
+Unemployment rate: 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1298157.0(base:0.0)
+Average Dividend: 12981
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 4805152
+Total value: 172105800
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 35
+Inflation rate(last period): -5.405405405405405
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 1283491
+Debts: 4485244(doubtful:0)
+Capital adequacy: 3201753
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 1283491
+Debts: 4485244(doubtful:0)
+Capital adequacy: 3201753
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-08T01:01:00.000Z(7)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1298157.0(base:0.0)
+Average Dividend: 12981
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 9000
+Total value: 317207
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 35
+Inflation rate(last period): 0.0
+Unemployment rate: 22.266666666666666
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1505531.0(base:0.0)
+Average Dividend: 15055
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 4869391
+Total value: 173201825
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 35
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 2361256
+Debts: 6352429(doubtful:0)
+Capital adequacy: 3991173
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 2361256
+Debts: 6352429(doubtful:0)
+Capital adequacy: 3991173
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-09T01:01:00.000Z(8)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1505531.0(base:0.0)
+Average Dividend: 15055
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 10500
+Total value: 362891
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 34
+Inflation rate(last period): -2.857142857142857
+Unemployment rate: 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1616414.0(base:0.0)
+Average Dividend: 16164
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 4948147
+Total value: 174139858
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 35
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 3847631
+Debts: 8347930(doubtful:0)
+Capital adequacy: 4500299
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 3847631
+Debts: 8347930(doubtful:0)
+Capital adequacy: 4500299
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-10T01:01:00.000Z(9)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1616414.0(base:0.0)
+Average Dividend: 16164
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 12000
+Total value: 408575
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 34
+Inflation rate(last period): 0.0
+Unemployment rate: 22.266666666666666
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1744384.0(base:0.0)
+Average Dividend: 17443
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 4951646
+Total value: 174160455
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 35
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 5591908
+Debts: 10495130(doubtful:0)
+Capital adequacy: 4903222
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 5591908
+Debts: 10495130(doubtful:0)
+Capital adequacy: 4903222
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-11T01:01:00.000Z(10)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1744384.0(base:0.0)
+Average Dividend: 17443
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 13500
+Total value: 448045
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 33
+Inflation rate(last period): -2.9411764705882355
+Unemployment rate: 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1807461.0(base:0.0)
+Average Dividend: 18074
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 4990981
+Total value: 174577829
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 34
+Inflation rate(last period): -2.857142857142857
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 7484339
+Debts: 12718854(doubtful:0)
+Capital adequacy: 5234515
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 7484339
+Debts: 12718854(doubtful:0)
+Capital adequacy: 5234515
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-12T01:01:00.000Z(11)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1807461.0(base:0.0)
+Average Dividend: 18074
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 15000
+Total value: 487515
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 32
+Inflation rate(last period): -3.0303030303030303
+Unemployment rate: 22.266666666666666
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1843991.0(base:0.0)
+Average Dividend: 18439
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 4993345
+Total value: 174588160
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 34
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 9534319
+Debts: 15009335(doubtful:0)
+Capital adequacy: 5475016
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 9534319
+Debts: 15009335(doubtful:0)
+Capital adequacy: 5475016
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-13T01:01:00.000Z(12)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1843991.0(base:0.0)
+Average Dividend: 18439
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 16500
+Total value: 522540
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 31
+Inflation rate(last period): -3.125
+Unemployment rate: 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1861502.0(base:0.0)
+Average Dividend: 18615
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 4993345
+Total value: 174588160
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 34
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 11684638
+Debts: 17344603(doubtful:0)
+Capital adequacy: 5659965
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 11684638
+Debts: 17344603(doubtful:0)
+Capital adequacy: 5659965
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-14T01:01:00.000Z(13)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1861502.0(base:0.0)
+Average Dividend: 18615
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 18000
+Total value: 557565
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 30
+Inflation rate(last period): -3.225806451612903
+Unemployment rate: 33.8
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1879555.0(base:0.0)
+Average Dividend: 18795
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 5015564
+Total value: 174639411
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 34
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 13903420
+Debts: 19732452(doubtful:0)
+Capital adequacy: 5829032
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 13903420
+Debts: 19732452(doubtful:0)
+Capital adequacy: 5829032
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-15T01:01:00.000Z(14)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1879555.0(base:0.0)
+Average Dividend: 18795
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 19500
+Total value: 589387
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 30
+Inflation rate(last period): 0.0
+Unemployment rate: 8.2
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1885435.0(base:0.0)
+Average Dividend: 18854
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 5079457
+Total value: 175120495
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 34
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 16161050
+Debts: 22153983(doubtful:0)
+Capital adequacy: 5992933
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 16161050
+Debts: 22153983(doubtful:0)
+Capital adequacy: 5992933
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-16T01:01:00.000Z(15)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1885435.0(base:0.0)
+Average Dividend: 18854
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 21000
+Total value: 612861
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 29
+Inflation rate(last period): -3.3333333333333335
+Unemployment rate: 50.333333333333336
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1899084.0(base:0.0)
+Average Dividend: 18990
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 5079457
+Total value: 175120495
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 34
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 18468426
+Debts: 24615505(doubtful:0)
+Capital adequacy: 6147079
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 18468426
+Debts: 24615505(doubtful:0)
+Capital adequacy: 6147079
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-17T01:01:00.000Z(16)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1899084.0(base:0.0)
+Average Dividend: 18990
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 22500
+Total value: 632942
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 28
+Inflation rate(last period): -3.4482758620689653
+Unemployment rate: 36.13333333333333
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1908501.0(base:0.0)
+Average Dividend: 19085
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 5782869
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 14381
+Inflation rate(last period): 42197.05882352941
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 19706184
+Debts: 155009219(doubtful:0)
+Capital adequacy: 135303035
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 19706184
+Debts: 155009219(doubtful:0)
+Capital adequacy: 135303035
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-18T01:01:00.000Z(17)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1908501.0(base:0.0)
+Average Dividend: 19085
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 24000
+Total value: 269530067
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 11230
+Inflation rate(last period): 40007.142857142855
+Unemployment rate: 60.13333333333333
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.1170769E8(base:0.0)
+Average Dividend: 1117076
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 6511169
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 26389
+Inflation rate(last period): 83.49906126138656
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 20482432
+Debts: 713889283(doubtful:0)
+Capital adequacy: 693406851
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 20482432
+Debts: 713889283(doubtful:0)
+Capital adequacy: 693406851
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-19T01:01:00.000Z(18)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.1170769E8(base:0.0)
+Average Dividend: 1117076
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 24000
+Total value: 269530067
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 11230
+Inflation rate(last period): 0.0
+Unemployment rate: 73.46666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.21393104E8(base:0.0)
+Average Dividend: 1213931
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 7654299
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 72959
+Inflation rate(last period): 176.47504642085718
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 148661045
+Debts: 1643097101(doubtful:0)
+Capital adequacy: 1494436056
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 148661045
+Debts: 1643097101(doubtful:0)
+Capital adequacy: 1494436056
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-20T01:01:00.000Z(19)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.21393104E8(base:0.0)
+Average Dividend: 1213931
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 25500
+Total value: 864284367
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 33893
+Inflation rate(last period): 201.80765805877115
+Unemployment rate: 78.66666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 5.02878956E8(base:0.0)
+Average Dividend: 5028789
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 8801273
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 108723
+Inflation rate(last period): 49.01931221645034
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 655091412
+Debts: 3198566048(doubtful:0)
+Capital adequacy: 2543474636
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 655091412
+Debts: 3198566048(doubtful:0)
+Capital adequacy: 2543474636
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-21T01:01:00.000Z(20)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 5.02878956E8(base:0.0)
+Average Dividend: 5028789
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 25500
+Total value: 864284367
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 33893
+Inflation rate(last period): 0.0
+Unemployment rate: 79.86666666666666
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 5.97915975E8(base:0.0)
+Average Dividend: 5979159
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 10097032
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 136008
+Inflation rate(last period): 25.095885875113822
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 1294399090
+Debts: 5034198205(doubtful:0)
+Capital adequacy: 3739799115
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 1294399090
+Debts: 5034198205(doubtful:0)
+Capital adequacy: 3739799115
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-22T01:01:00.000Z(21)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 5.97915975E8(base:0.0)
+Average Dividend: 5979159
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 25500
+Total value: 864284367
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 33893
+Inflation rate(last period): 0.0
+Unemployment rate: 80.4
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 7.40995112E8(base:0.0)
+Average Dividend: 7409951
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 10897508
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 149913
+Inflation rate(last period): 10.22366331392271
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 2271973497
+Debts: 7118265078(doubtful:0)
+Capital adequacy: 4846291581
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 2271973497
+Debts: 7118265078(doubtful:0)
+Capital adequacy: 4846291581
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-23T01:01:00.000Z(22)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 7.40995112E8(base:0.0)
+Average Dividend: 7409951
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 27000
+Total value: 1455636348
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 53912
+Inflation rate(last period): 59.06529371846694
+Unemployment rate: 80.4
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 7.84437538E8(base:0.0)
+Average Dividend: 7844375
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 11685848
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 167651
+Inflation rate(last period): 11.832196007017403
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 3234799269
+Debts: 9302556435(doubtful:0)
+Capital adequacy: 6067757166
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 3234799269
+Debts: 9302556435(doubtful:0)
+Capital adequacy: 6067757166
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-24T01:01:00.000Z(23)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 7.84437538E8(base:0.0)
+Average Dividend: 7844375
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 27000
+Total value: 1455636348
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 53912
+Inflation rate(last period): 0.0
+Unemployment rate: 80.4
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 8.48552884E8(base:0.0)
+Average Dividend: 8485528
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 12262132
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 179575
+Inflation rate(last period): 7.112394199855652
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 4265211104
+Debts: 11510809513(doubtful:0)
+Capital adequacy: 7245598409
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 4265211104
+Debts: 11510809513(doubtful:0)
+Capital adequacy: 7245598409
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-25T01:01:00.000Z(24)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 8.48552884E8(base:0.0)
+Average Dividend: 8485528
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 27000
+Total value: 1455636348
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 53912
+Inflation rate(last period): 0.0
+Unemployment rate: 80.66666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 9.43430294E8(base:0.0)
+Average Dividend: 9434302
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 12915367
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 186544
+Inflation rate(last period): 3.8808297368787414
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 5423335294
+Debts: 13731370943(doubtful:0)
+Capital adequacy: 8308035649
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 5423335294
+Debts: 13731370943(doubtful:0)
+Capital adequacy: 8308035649
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-26T01:01:00.000Z(25)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 9.43430294E8(base:0.0)
+Average Dividend: 9434302
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 27000
+Total value: 1455636348
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 53912
+Inflation rate(last period): 0.0
+Unemployment rate: 82.66666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.038239224E9(base:0.0)
+Average Dividend: 10382392
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 13307904
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 190832
+Inflation rate(last period): 2.298653400806244
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 6703821068
+Debts: 15958608624(doubtful:0)
+Capital adequacy: 9254787556
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 6703821068
+Debts: 15958608624(doubtful:0)
+Capital adequacy: 9254787556
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-27T01:01:00.000Z(26)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.038239224E9(base:0.0)
+Average Dividend: 10382392
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 28500
+Total value: 1673435394
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58717
+Inflation rate(last period): 8.912672503338774
+Unemployment rate: 83.86666666666666
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.120432864E9(base:0.0)
+Average Dividend: 11204328
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 13803962
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 187861
+Inflation rate(last period): -1.5568667728682821
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 8143621586
+Debts: 18190361398(doubtful:0)
+Capital adequacy: 10046739812
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 8143621586
+Debts: 18190361398(doubtful:0)
+Capital adequacy: 10046739812
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-28T01:01:00.000Z(27)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.120432864E9(base:0.0)
+Average Dividend: 11204328
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 28500
+Total value: 1673435394
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58717
+Inflation rate(last period): 0.0
+Unemployment rate: 88.66666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.183045948E9(base:0.0)
+Average Dividend: 11830459
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 13902877
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 186718
+Inflation rate(last period): -0.6084285721890121
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 9817614305
+Debts: 20426145777(doubtful:0)
+Capital adequacy: 10608531472
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 9817614305
+Debts: 20426145777(doubtful:0)
+Capital adequacy: 10608531472
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-29T01:01:00.000Z(28)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.183045948E9(base:0.0)
+Average Dividend: 11830459
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 28500
+Total value: 1673435394
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58717
+Inflation rate(last period): 0.0
+Unemployment rate: 89.73333333333333
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.291606868E9(base:0.0)
+Average Dividend: 12916068
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 13991054
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 185651
+Inflation rate(last period): -0.571449994108763
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 11662370212
+Debts: 22665978176(doubtful:0)
+Capital adequacy: 11003607964
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 11662370212
+Debts: 22665978176(doubtful:0)
+Capital adequacy: 11003607964
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-30T01:01:00.000Z(29)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.291606868E9(base:0.0)
+Average Dividend: 12916068
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 28500
+Total value: 1673435394
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58717
+Inflation rate(last period): 0.0
+Unemployment rate: 93.46666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.345664705E9(base:0.0)
+Average Dividend: 13456647
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14013993
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 185351
+Inflation rate(last period): -0.16159352764057291
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 13583560355
+Debts: 24909875109(doubtful:0)
+Capital adequacy: 11326314754
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 13583560355
+Debts: 24909875109(doubtful:0)
+Capital adequacy: 11326314754
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-01-31T01:01:00.000Z(30)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.345664705E9(base:0.0)
+Average Dividend: 13456647
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 28500
+Total value: 1673435394
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58717
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.370731763E9(base:0.0)
+Average Dividend: 13707317
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14053828
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 184833
+Inflation rate(last period): -0.27946976277441177
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 15604824583
+Debts: 27157853135(doubtful:0)
+Capital adequacy: 11553028552
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 15604824583
+Debts: 27157853135(doubtful:0)
+Capital adequacy: 11553028552
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-01T01:01:00.000Z(31)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.370731763E9(base:0.0)
+Average Dividend: 13707317
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 28500
+Total value: 1673435394
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58717
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.374833834E9(base:0.0)
+Average Dividend: 13748338
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14080614
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 184483
+Inflation rate(last period): -0.18936012508588834
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 17678574506
+Debts: 29409928913(doubtful:0)
+Capital adequacy: 11731354407
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 17678574506
+Debts: 29409928913(doubtful:0)
+Capital adequacy: 11731354407
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-02T01:01:00.000Z(32)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.374833834E9(base:0.0)
+Average Dividend: 13748338
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 28500
+Total value: 1673435394
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58717
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.37618107E9(base:0.0)
+Average Dividend: 13761810
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14326620
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 183510
+Inflation rate(last period): -0.5274198706655898
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 19561535724
+Debts: 31666119134(doubtful:0)
+Capital adequacy: 12104583410
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 19561535724
+Debts: 31666119134(doubtful:0)
+Capital adequacy: 12104583410
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-03T01:01:00.000Z(33)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.37618107E9(base:0.0)
+Average Dividend: 13761810
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 3.1745491084353765
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.37618107E9(base:0.0)
+Average Dividend: 13761810
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14397080
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 182633
+Inflation rate(last period): -0.47790311154705467
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 21424611557
+Debts: 33926440541(doubtful:0)
+Capital adequacy: 12501828984
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 21424611557
+Debts: 33926440541(doubtful:0)
+Capital adequacy: 12501828984
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-04T01:01:00.000Z(34)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.37618107E9(base:0.0)
+Average Dividend: 13761810
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.473500285E9(base:0.0)
+Average Dividend: 14735002
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14530829
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 180972
+Inflation rate(last period): -0.9094741914111908
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 23404178287
+Debts: 36190909970(doubtful:0)
+Capital adequacy: 12786731683
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 23404178287
+Debts: 36190909970(doubtful:0)
+Capital adequacy: 12786731683
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-05T01:01:00.000Z(35)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.473500285E9(base:0.0)
+Average Dividend: 14735002
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.53046557E9(base:0.0)
+Average Dividend: 15304655
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14569701
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 180491
+Inflation rate(last period): -0.2657869725703424
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 25348297675
+Debts: 38459544325(doubtful:0)
+Capital adequacy: 13111246650
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 25348297675
+Debts: 38459544325(doubtful:0)
+Capital adequacy: 13111246650
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-06T01:01:00.000Z(36)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.53046557E9(base:0.0)
+Average Dividend: 15304655
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.559493361E9(base:0.0)
+Average Dividend: 15594933
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14657216
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 179427
+Inflation rate(last period): -0.5895030777157864
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 27362112156
+Debts: 40732360549(doubtful:0)
+Capital adequacy: 13370248393
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 27362112156
+Debts: 40732360549(doubtful:0)
+Capital adequacy: 13370248393
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-07T01:01:00.000Z(37)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.559493361E9(base:0.0)
+Average Dividend: 15594933
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.570900914E9(base:0.0)
+Average Dividend: 15709009
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14692168
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 179002
+Inflation rate(last period): -0.23686513178061272
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 29417442779
+Debts: 43009375685(doubtful:0)
+Capital adequacy: 13591932906
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 29417442779
+Debts: 43009375685(doubtful:0)
+Capital adequacy: 13591932906
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-08T01:01:00.000Z(38)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.570900914E9(base:0.0)
+Average Dividend: 15709009
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14841167
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 177210
+Inflation rate(last period): -1.0011061328923698
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 31495627759
+Debts: 45290606825(doubtful:0)
+Capital adequacy: 13794979066
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 31495627759
+Debts: 45290606825(doubtful:0)
+Capital adequacy: 13794979066
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-09T01:01:00.000Z(39)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 14977863
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 175596
+Inflation rate(last period): -0.9107838158117487
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 33581149412
+Debts: 47576071140(doubtful:0)
+Capital adequacy: 13994921728
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 33581149412
+Debts: 47576071140(doubtful:0)
+Capital adequacy: 13994921728
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-10T01:01:00.000Z(40)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 15172203
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 173352
+Inflation rate(last period): -1.2779334381193193
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 35666415194
+Debts: 49865785887(doubtful:0)
+Capital adequacy: 14199370693
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 35666415194
+Debts: 49865785887(doubtful:0)
+Capital adequacy: 14199370693
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-11T01:01:00.000Z(41)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 15319733
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 171685
+Inflation rate(last period): -0.9616272093774516
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 37746921388
+Debts: 52159768414(doubtful:0)
+Capital adequacy: 14412847026
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 37746921388
+Debts: 52159768414(doubtful:0)
+Capital adequacy: 14412847026
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-12T01:01:00.000Z(42)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 15581970
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 168797
+Inflation rate(last period): -1.6821504499519468
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 39822962385
+Debts: 54458036152(doubtful:0)
+Capital adequacy: 14635073767
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 39822962385
+Debts: 54458036152(doubtful:0)
+Capital adequacy: 14635073767
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-13T01:01:00.000Z(43)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30000
+Total value: 1817438364
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 60581
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 15791961
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 166553
+Inflation rate(last period): -1.3294075131667031
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 41894155877
+Debts: 56760606562(doubtful:0)
+Capital adequacy: 14866450685
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 41894155877
+Debts: 56760606562(doubtful:0)
+Capital adequacy: 14866450685
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-14T01:01:00.000Z(44)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): -4.012809296644162
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 16229814
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 162061
+Inflation rate(last period): -2.697039380857745
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 43960543323
+Debts: 59067497135(doubtful:0)
+Capital adequacy: 15106953812
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 43960543323
+Debts: 59067497135(doubtful:0)
+Capital adequacy: 15106953812
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-15T01:01:00.000Z(45)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 16634603
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 158119
+Inflation rate(last period): -2.4324174230690914
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 46021983516
+Debts: 61378725473(doubtful:0)
+Capital adequacy: 15356741957
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 46021983516
+Debts: 61378725473(doubtful:0)
+Capital adequacy: 15356741957
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-16T01:01:00.000Z(46)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 17294762
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 152085
+Inflation rate(last period): -3.816113180579184
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 48078435403
+Debts: 63694309242(doubtful:0)
+Capital adequacy: 15615873839
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 48078435403
+Debts: 63694309242(doubtful:0)
+Capital adequacy: 15615873839
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-17T01:01:00.000Z(47)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 17962684
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 146431
+Inflation rate(last period): -3.717657888680672
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 50129884886
+Debts: 66014266170(doubtful:0)
+Capital adequacy: 15884381284
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 50129884886
+Debts: 66014266170(doubtful:0)
+Capital adequacy: 15884381284
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-18T01:01:00.000Z(48)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 18680628
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 140805
+Inflation rate(last period): -3.842082619117537
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 52175609188
+Debts: 68338614060(doubtful:0)
+Capital adequacy: 16163004872
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 52175609188
+Debts: 68338614060(doubtful:0)
+Capital adequacy: 16163004872
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-19T01:01:00.000Z(49)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 19429214
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 135381
+Inflation rate(last period): -3.8521359326728453
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 54216325433
+Debts: 70667370795(doubtful:0)
+Capital adequacy: 16451045362
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 54216325433
+Debts: 70667370795(doubtful:0)
+Capital adequacy: 16451045362
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-20T01:01:00.000Z(50)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 20553444
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 127978
+Inflation rate(last period): -5.468271027692217
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 56252806364
+Debts: 73000554340(doubtful:0)
+Capital adequacy: 16747747976
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 56252806364
+Debts: 73000554340(doubtful:0)
+Capital adequacy: 16747747976
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-21T01:01:00.000Z(51)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 21698384
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 121226
+Inflation rate(last period): -5.275906796480645
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 58284249255
+Debts: 75338182737(doubtful:0)
+Capital adequacy: 17053933482
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 58284249255
+Debts: 75338182737(doubtful:0)
+Capital adequacy: 17053933482
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-22T01:01:00.000Z(52)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 23229491
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 113237
+Inflation rate(last period): -6.590170425486281
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 60310644867
+Debts: 77680274117(doubtful:0)
+Capital adequacy: 17369629250
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 60310644867
+Debts: 77680274117(doubtful:0)
+Capital adequacy: 17369629250
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-23T01:01:00.000Z(53)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 24654469
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 106693
+Inflation rate(last period): -5.77902982240787
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 62331990665
+Debts: 80026846668(doubtful:0)
+Capital adequacy: 17694856003
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 62331990665
+Debts: 80026846668(doubtful:0)
+Capital adequacy: 17694856003
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-24T01:01:00.000Z(54)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 31500
+Total value: 1831752691
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 58150
+Inflation rate(last period): 0.0
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 26560754
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 99036
+Inflation rate(last period): -7.176665760640342
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 64348285660
+Debts: 82377918652(doubtful:0)
+Capital adequacy: 18029632992
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 64348285660
+Debts: 82377918652(doubtful:0)
+Capital adequacy: 18029632992
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-25T01:01:00.000Z(55)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): -4.519346517626827
+Unemployment rate: 94.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 28492191
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 92324
+Inflation rate(last period): -6.777333494890747
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 66359528442
+Debts: 84733508363(doubtful:0)
+Capital adequacy: 18373979921
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 66359528442
+Debts: 84733508363(doubtful:0)
+Capital adequacy: 18373979921
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-26T01:01:00.000Z(56)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 94.4
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 30669571
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 85770
+Inflation rate(last period): -7.098912525453836
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 68365661132
+Debts: 87093634213(doubtful:0)
+Capital adequacy: 18727973081
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 68365661132
+Debts: 87093634213(doubtful:0)
+Capital adequacy: 18727973081
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-27T01:01:00.000Z(57)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 94.93333333333334
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 32672109
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 80513
+Inflation rate(last period): -6.1291826979130235
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 70366738732
+Debts: 89458314691(doubtful:0)
+Capital adequacy: 19091575959
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 70366738732
+Debts: 89458314691(doubtful:0)
+Capital adequacy: 19091575959
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-28T01:01:00.000Z(58)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 96.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 35187539
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 74758
+Inflation rate(last period): -7.147914001465602
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 72362815995
+Debts: 91827568371(doubtful:0)
+Capital adequacy: 19464752376
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 72362815995
+Debts: 91827568371(doubtful:0)
+Capital adequacy: 19464752376
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-02-29T01:01:00.000Z(59)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 96.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 37734108
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 69713
+Inflation rate(last period): -6.748441638353086
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 74353836935
+Debts: 94201413864(doubtful:0)
+Capital adequacy: 19847576929
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 74353836935
+Debts: 94201413864(doubtful:0)
+Capital adequacy: 19847576929
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-01T01:01:00.000Z(60)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 96.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 40659313
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 64698
+Inflation rate(last period): -7.193780213159669
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 76339801277
+Debts: 96579869899(doubtful:0)
+Capital adequacy: 20240068622
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 76339801277
+Debts: 96579869899(doubtful:0)
+Capital adequacy: 20240068622
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-02T01:01:00.000Z(61)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 96.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 43601246
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 60333
+Inflation rate(last period): -6.7467309654085135
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 78320708749
+Debts: 98962955278(doubtful:0)
+Capital adequacy: 20642246529
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 78320708749
+Debts: 98962955278(doubtful:0)
+Capital adequacy: 20642246529
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-03T01:01:00.000Z(62)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 96.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 46688056
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 56344
+Inflation rate(last period): -6.611638738335571
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 80296559289
+Debts: 101350688833(doubtful:0)
+Capital adequacy: 21054129544
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 80296559289
+Debts: 101350688833(doubtful:0)
+Capital adequacy: 21054129544
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-04T01:01:00.000Z(63)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 96.53333333333333
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 50021126
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 52590
+Inflation rate(last period): -6.662643759761465
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 82267352915
+Debts: 103743089478(doubtful:0)
+Capital adequacy: 21475736563
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 82267352915
+Debts: 103743089478(doubtful:0)
+Capital adequacy: 21475736563
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-05T01:01:00.000Z(64)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 96.93333333333334
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 53732748
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 48958
+Inflation rate(last period): -6.906255942194334
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 84233089546
+Debts: 106140176226(doubtful:0)
+Capital adequacy: 21907086680
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 84233089546
+Debts: 106140176226(doubtful:0)
+Capital adequacy: 21907086680
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-06T01:01:00.000Z(65)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 98.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 57459284
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 45783
+Inflation rate(last period): -6.485150537195147
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 86193769024
+Debts: 108541968220(doubtful:0)
+Capital adequacy: 22348199196
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 86193769024
+Debts: 108541968220(doubtful:0)
+Capital adequacy: 22348199196
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-07T01:01:00.000Z(66)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 98.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 61270701
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 42935
+Inflation rate(last period): -6.220649586090907
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 88149391287
+Debts: 110948484659(doubtful:0)
+Capital adequacy: 22799093372
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 88149391287
+Debts: 110948484659(doubtful:0)
+Capital adequacy: 22799093372
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-08T01:01:00.000Z(67)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 98.53333333333333
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 65391598
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 40229
+Inflation rate(last period): -6.302550366833586
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 90099956299
+Debts: 113359744746(doubtful:0)
+Capital adequacy: 23259788447
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 90099956299
+Debts: 113359744746(doubtful:0)
+Capital adequacy: 23259788447
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-09T01:01:00.000Z(68)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 98.66666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 69885901
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 37642
+Inflation rate(last period): -6.430684332198165
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 92045464034
+Debts: 115775767790(doubtful:0)
+Capital adequacy: 23730303756
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 92045464034
+Debts: 115775767790(doubtful:0)
+Capital adequacy: 23730303756
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-10T01:01:00.000Z(69)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 98.66666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 74401409
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 35358
+Inflation rate(last period): -6.067690345890229
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 93985914492
+Debts: 118196573189(doubtful:0)
+Capital adequacy: 24210658697
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 93985914492
+Debts: 118196573189(doubtful:0)
+Capital adequacy: 24210658697
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-11T01:01:00.000Z(70)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 98.66666666666667
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 79303131
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 33172
+Inflation rate(last period): -6.182476384410883
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 95921307673
+Debts: 120622180420(doubtful:0)
+Capital adequacy: 24700872747
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 95921307673
+Debts: 120622180420(doubtful:0)
+Capital adequacy: 24700872747
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-12T01:01:00.000Z(71)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 99.86666666666666
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 83844621
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 31376
+Inflation rate(last period): -5.414204750994815
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 97851643577
+Debts: 123052609068(doubtful:0)
+Capital adequacy: 25200965491
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 97851643577
+Debts: 123052609068(doubtful:0)
+Capital adequacy: 25200965491
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-13T01:01:00.000Z(72)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 89121607
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 29518
+Inflation rate(last period): -5.921723610402855
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 99776922204
+Debts: 125487878790(doubtful:0)
+Capital adequacy: 25710956586
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 99776922204
+Debts: 125487878790(doubtful:0)
+Capital adequacy: 25710956586
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-14T01:01:00.000Z(73)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 94427159
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 27859
+Inflation rate(last period): -5.620299478284436
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 101697143554
+Debts: 127928009280(doubtful:0)
+Capital adequacy: 26230865726
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 101697143554
+Debts: 127928009280(doubtful:0)
+Capital adequacy: 26230865726
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-15T01:01:00.000Z(74)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 100111993
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 26277
+Inflation rate(last period): -5.6785957859219645
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 103612307627
+Debts: 130373020336(doubtful:0)
+Capital adequacy: 26760712709
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 103612307627
+Debts: 130373020336(doubtful:0)
+Capital adequacy: 26760712709
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-16T01:01:00.000Z(75)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 105380649
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 24964
+Inflation rate(last period): -4.996765231951897
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 105522414423
+Debts: 132822931814(doubtful:0)
+Capital adequacy: 27300517391
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 105522414423
+Debts: 132822931814(doubtful:0)
+Capital adequacy: 27300517391
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-17T01:01:00.000Z(76)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 111441955
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 23606
+Inflation rate(last period): -5.439833360038455
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 107427463942
+Debts: 135277763684(doubtful:0)
+Capital adequacy: 27850299742
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 107427463942
+Debts: 135277763684(doubtful:0)
+Capital adequacy: 27850299742
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-18T01:01:00.000Z(77)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 117533489
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 22382
+Inflation rate(last period): -5.185122426501737
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 109327456184
+Debts: 137737536012(doubtful:0)
+Capital adequacy: 28410079828
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 109327456184
+Debts: 137737536012(doubtful:0)
+Capital adequacy: 28410079828
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-19T01:01:00.000Z(78)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 124002551
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 21215
+Inflation rate(last period): -5.2140112590474486
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 111222391149
+Debts: 140202268909(doubtful:0)
+Capital adequacy: 28979877760
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 111222391149
+Debts: 140202268909(doubtful:0)
+Capital adequacy: 28979877760
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-20T01:01:00.000Z(79)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 130489599
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 20160
+Inflation rate(last period): -4.972896535470186
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 113112268837
+Debts: 142671982613(doubtful:0)
+Capital adequacy: 29559713776
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 113112268837
+Debts: 142671982613(doubtful:0)
+Capital adequacy: 29559713776
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-21T01:01:00.000Z(80)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 136843660
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 19224
+Inflation rate(last period): -4.642857142857143
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 114997089248
+Debts: 145146697449(doubtful:0)
+Capital adequacy: 30149608201
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 114997089248
+Debts: 145146697449(doubtful:0)
+Capital adequacy: 30149608201
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-22T01:01:00.000Z(81)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 143723315
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 18304
+Inflation rate(last period): -4.78568456096546
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 116876852382
+Debts: 147626433813(doubtful:0)
+Capital adequacy: 30749581431
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 116876852382
+Debts: 147626433813(doubtful:0)
+Capital adequacy: 30749581431
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-23T01:01:00.000Z(82)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 150977352
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 17424
+Inflation rate(last period): -4.8076923076923075
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 118751558239
+Debts: 150111212137(doubtful:0)
+Capital adequacy: 31359653898
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 118751558239
+Debts: 150111212137(doubtful:0)
+Capital adequacy: 31359653898
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-24T01:01:00.000Z(83)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 158250364
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 16623
+Inflation rate(last period): -4.597107438016529
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 120621206819
+Debts: 152601052952(doubtful:0)
+Capital adequacy: 31979846133
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 120621206819
+Debts: 152601052952(doubtful:0)
+Capital adequacy: 31979846133
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-25T01:01:00.000Z(84)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 165328285
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 15912
+Inflation rate(last period): -4.2772062804547915
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 122485798122
+Debts: 155095976880(doubtful:0)
+Capital adequacy: 32610178758
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 122485798122
+Debts: 155095976880(doubtful:0)
+Capital adequacy: 32610178758
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-26T01:01:00.000Z(85)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 172996070
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 15206
+Inflation rate(last period): -4.436902966314731
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 124345332148
+Debts: 157596004652(doubtful:0)
+Capital adequacy: 33250672504
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 124345332148
+Debts: 157596004652(doubtful:0)
+Capital adequacy: 33250672504
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-27T01:01:00.000Z(86)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 181032606
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 14531
+Inflation rate(last period): -4.439037222149151
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 126199808897
+Debts: 160101157042(doubtful:0)
+Capital adequacy: 33901348145
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 126199808897
+Debts: 160101157042(doubtful:0)
+Capital adequacy: 33901348145
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-28T01:01:00.000Z(87)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 189095231
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 13912
+Inflation rate(last period): -4.2598582341201565
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 128049228369
+Debts: 162611454894(doubtful:0)
+Capital adequacy: 34562226525
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 128049228369
+Debts: 162611454894(doubtful:0)
+Capital adequacy: 34562226525
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-29T01:01:00.000Z(88)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 197540576
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 13317
+Inflation rate(last period): -4.276883266244968
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 129893590564
+Debts: 165126919154(doubtful:0)
+Capital adequacy: 35233328590
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 129893590564
+Debts: 165126919154(doubtful:0)
+Capital adequacy: 35233328590
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-30T01:01:00.000Z(89)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 205349726
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 12810
+Inflation rate(last period): -3.8071637756251406
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 131732895482
+Debts: 167647570875(doubtful:0)
+Capital adequacy: 35914675393
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 131732895482
+Debts: 167647570875(doubtful:0)
+Capital adequacy: 35914675393
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-03-31T01:01:00.000Z(90)>
+
+
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 33000
+Total value: 1832250115
+Offering(# of entities): 1500
+Demanding(# of entities): 100
+Average value: 55522
+Inflation rate(last period): 0.0
+Unemployment rate: 100.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.574769348E9(base:0.0)
+Average Dividend: 15747693
+Total productivity: 36218
+AdaptationManager:
+Valuable Rate: 100
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 214172048
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 1500
+Average value: 12283
+Inflation rate(last period): -4.113973458235753
+--------------
+
+Priority: 6.0
+Event: UpdateHouseholds
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 7.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 133567143123
+Debts: 170173431234(doubtful:0)
+Capital adequacy: 36606288111
+--------------
+
+Priority: 8.0
+Event: UpdateProductiveSector
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 9.0
+Event: UpdateBank
+freq: P1D
+repeat: CONSTANTLY
+Accounts(#): 1600
+Borrowers(#): 100
+Deposits: 133567143123
+Debts: 170173431234(doubtful:0)
+Capital adequacy: 36606288111
+--------------
+
+Priority: 10.0
+Event: CreditCheques
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+
+
+---------------
+
+
+		<PERIOD: 0000-04-01T01:01:00.000Z(91)>
+
+
+

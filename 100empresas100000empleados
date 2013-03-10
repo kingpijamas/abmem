@@ -1,0 +1,5931 @@
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.08871213E8(base:0.0)
+Average Dividend: 1088712
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 697200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 315
+Inflation rate(last period): -0.6309148264984227
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-17T01:01:00.000Z(168)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.08871213E8(base:0.0)
+Average Dividend: 1088712
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 400800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 148
+Inflation rate(last period): -0.6711409395973155
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.09470763E8(base:0.0)
+Average Dividend: 1094707
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 705600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 313
+Inflation rate(last period): -0.6349206349206349
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-18T01:01:00.000Z(169)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.09470763E8(base:0.0)
+Average Dividend: 1094707
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 403200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 147
+Inflation rate(last period): -0.6756756756756757
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.10070313E8(base:0.0)
+Average Dividend: 1100703
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 714000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 311
+Inflation rate(last period): -0.6389776357827476
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-19T01:01:00.000Z(170)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.10070313E8(base:0.0)
+Average Dividend: 1100703
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 405600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 146
+Inflation rate(last period): -0.6802721088435374
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.10667925E8(base:0.0)
+Average Dividend: 1106679
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 722500000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 309
+Inflation rate(last period): -0.6430868167202572
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-20T01:01:00.000Z(171)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.10667925E8(base:0.0)
+Average Dividend: 1106679
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 408000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 145
+Inflation rate(last period): -0.684931506849315
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.11265537E8(base:0.0)
+Average Dividend: 1112655
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 731000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 307
+Inflation rate(last period): -0.6472491909385113
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-21T01:01:00.000Z(172)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.11265537E8(base:0.0)
+Average Dividend: 1112655
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 410400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 144
+Inflation rate(last period): -0.6896551724137931
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.11861173E8(base:0.0)
+Average Dividend: 1118611
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 739600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 305
+Inflation rate(last period): -0.6514657980456026
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-22T01:01:00.000Z(173)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.11861173E8(base:0.0)
+Average Dividend: 1118611
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 412800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 144
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.12456809E8(base:0.0)
+Average Dividend: 1124568
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 748200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 304
+Inflation rate(last period): -0.32786885245901637
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-23T01:01:00.000Z(174)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.12456809E8(base:0.0)
+Average Dividend: 1124568
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 415200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 143
+Inflation rate(last period): -0.6944444444444444
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.13050344E8(base:0.0)
+Average Dividend: 1130503
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 756900000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 302
+Inflation rate(last period): -0.6578947368421053
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-24T01:01:00.000Z(175)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.13050344E8(base:0.0)
+Average Dividend: 1130503
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 417600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 142
+Inflation rate(last period): -0.6993006993006993
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.13643879E8(base:0.0)
+Average Dividend: 1136438
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 765600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 300
+Inflation rate(last period): -0.6622516556291391
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-25T01:01:00.000Z(176)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.13643879E8(base:0.0)
+Average Dividend: 1136438
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 420000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 141
+Inflation rate(last period): -0.704225352112676
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.14235459E8(base:0.0)
+Average Dividend: 1142354
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 774400000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 298
+Inflation rate(last period): -0.6666666666666666
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-26T01:01:00.000Z(177)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.14235459E8(base:0.0)
+Average Dividend: 1142354
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 422400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 140
+Inflation rate(last period): -0.7092198581560284
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.14827039E8(base:0.0)
+Average Dividend: 1148270
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 783200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 296
+Inflation rate(last period): -0.6711409395973155
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-27T01:01:00.000Z(178)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.14827039E8(base:0.0)
+Average Dividend: 1148270
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 424800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 140
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.15416464E8(base:0.0)
+Average Dividend: 1154164
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 792100000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 294
+Inflation rate(last period): -0.6756756756756757
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-28T01:01:00.000Z(179)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.15416464E8(base:0.0)
+Average Dividend: 1154164
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 427200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 139
+Inflation rate(last period): -0.7142857142857143
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.16005889E8(base:0.0)
+Average Dividend: 1160058
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 801000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 293
+Inflation rate(last period): -0.3401360544217687
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-29T01:01:00.000Z(180)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.16005889E8(base:0.0)
+Average Dividend: 1160058
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 429600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 138
+Inflation rate(last period): -0.7194244604316546
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.16593094E8(base:0.0)
+Average Dividend: 1165930
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 810000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 291
+Inflation rate(last period): -0.6825938566552902
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-06-30T01:01:00.000Z(181)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.16593094E8(base:0.0)
+Average Dividend: 1165930
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 432000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 137
+Inflation rate(last period): -0.7246376811594203
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.17180299E8(base:0.0)
+Average Dividend: 1171802
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 819000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 289
+Inflation rate(last period): -0.6872852233676976
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-01T01:01:00.000Z(182)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.17180299E8(base:0.0)
+Average Dividend: 1171802
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 434400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 136
+Inflation rate(last period): -0.7299270072992701
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.17765317E8(base:0.0)
+Average Dividend: 1177653
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 828100000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 287
+Inflation rate(last period): -0.6920415224913494
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-02T01:01:00.000Z(183)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.17765317E8(base:0.0)
+Average Dividend: 1177653
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 436800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 136
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.18350335E8(base:0.0)
+Average Dividend: 1183503
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 837200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 286
+Inflation rate(last period): -0.34843205574912894
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-03T01:01:00.000Z(184)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.18350335E8(base:0.0)
+Average Dividend: 1183503
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 439200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 135
+Inflation rate(last period): -0.7352941176470589
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.18933339E8(base:0.0)
+Average Dividend: 1189333
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 846400000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 284
+Inflation rate(last period): -0.6993006993006993
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-04T01:01:00.000Z(185)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.18933339E8(base:0.0)
+Average Dividend: 1189333
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 441600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 134
+Inflation rate(last period): -0.7407407407407407
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.19516343E8(base:0.0)
+Average Dividend: 1195163
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 855600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 282
+Inflation rate(last period): -0.704225352112676
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-05T01:01:00.000Z(186)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.19516343E8(base:0.0)
+Average Dividend: 1195163
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 444000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 133
+Inflation rate(last period): -0.746268656716418
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.20097247E8(base:0.0)
+Average Dividend: 1200972
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 864900000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 281
+Inflation rate(last period): -0.3546099290780142
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-06T01:01:00.000Z(187)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.20097247E8(base:0.0)
+Average Dividend: 1200972
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 446400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 133
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.20678151E8(base:0.0)
+Average Dividend: 1206781
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 874200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 279
+Inflation rate(last period): -0.7117437722419929
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-07T01:01:00.000Z(188)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.20678151E8(base:0.0)
+Average Dividend: 1206781
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 448800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 132
+Inflation rate(last period): -0.7518796992481203
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.21256956E8(base:0.0)
+Average Dividend: 1212569
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 883600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 277
+Inflation rate(last period): -0.7168458781362007
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-08T01:01:00.000Z(189)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.21256956E8(base:0.0)
+Average Dividend: 1212569
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 451200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 131
+Inflation rate(last period): -0.7575757575757576
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.21835761E8(base:0.0)
+Average Dividend: 1218357
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 893000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 276
+Inflation rate(last period): -0.36101083032490977
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-09T01:01:00.000Z(190)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.21835761E8(base:0.0)
+Average Dividend: 1218357
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 453600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 131
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.22412295E8(base:0.0)
+Average Dividend: 1224122
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 902500000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 274
+Inflation rate(last period): -0.7246376811594203
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-10T01:01:00.000Z(191)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.22412295E8(base:0.0)
+Average Dividend: 1224122
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 456000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 130
+Inflation rate(last period): -0.7633587786259542
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.22988829E8(base:0.0)
+Average Dividend: 1229888
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 912000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 273
+Inflation rate(last period): -0.36496350364963503
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-11T01:01:00.000Z(192)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.22988829E8(base:0.0)
+Average Dividend: 1229888
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 458400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 129
+Inflation rate(last period): -0.7692307692307693
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.23563101E8(base:0.0)
+Average Dividend: 1235631
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 921600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 271
+Inflation rate(last period): -0.7326007326007326
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-12T01:01:00.000Z(193)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.23563101E8(base:0.0)
+Average Dividend: 1235631
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 460800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 129
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.24137373E8(base:0.0)
+Average Dividend: 1241373
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 931200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 269
+Inflation rate(last period): -0.7380073800738007
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-13T01:01:00.000Z(194)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.24137373E8(base:0.0)
+Average Dividend: 1241373
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 463200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 128
+Inflation rate(last period): -0.7751937984496124
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.24709313E8(base:0.0)
+Average Dividend: 1247093
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 940900000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 268
+Inflation rate(last period): -0.37174721189591076
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-14T01:01:00.000Z(195)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.24709313E8(base:0.0)
+Average Dividend: 1247093
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 465600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 127
+Inflation rate(last period): -0.78125
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.25281253E8(base:0.0)
+Average Dividend: 1252812
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 950600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 266
+Inflation rate(last period): -0.746268656716418
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-15T01:01:00.000Z(196)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.25281253E8(base:0.0)
+Average Dividend: 1252812
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 468000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 127
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.2585078E8(base:0.0)
+Average Dividend: 1258507
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 960400000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 265
+Inflation rate(last period): -0.37593984962406013
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-16T01:01:00.000Z(197)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.2585078E8(base:0.0)
+Average Dividend: 1258507
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 470400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 126
+Inflation rate(last period): -0.7874015748031497
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.26420307E8(base:0.0)
+Average Dividend: 1264203
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 970200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 263
+Inflation rate(last period): -0.7547169811320755
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-17T01:01:00.000Z(198)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.26420307E8(base:0.0)
+Average Dividend: 1264203
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 472800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 125
+Inflation rate(last period): -0.7936507936507936
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.26987457E8(base:0.0)
+Average Dividend: 1269874
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 980100000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 262
+Inflation rate(last period): -0.38022813688212925
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-18T01:01:00.000Z(199)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.26987457E8(base:0.0)
+Average Dividend: 1269874
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 475200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 125
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.27554607E8(base:0.0)
+Average Dividend: 1275546
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 990000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 260
+Inflation rate(last period): -0.7633587786259542
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-19T01:01:00.000Z(200)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.27554607E8(base:0.0)
+Average Dividend: 1275546
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 477600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 124
+Inflation rate(last period): -0.8
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.28119407E8(base:0.0)
+Average Dividend: 1281194
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1000000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 259
+Inflation rate(last period): -0.38461538461538464
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-20T01:01:00.000Z(201)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.28119407E8(base:0.0)
+Average Dividend: 1281194
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 480000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 123
+Inflation rate(last period): -0.8064516129032258
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.28684207E8(base:0.0)
+Average Dividend: 1286842
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1010000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 258
+Inflation rate(last period): -0.3861003861003861
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-21T01:01:00.000Z(202)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.28684207E8(base:0.0)
+Average Dividend: 1286842
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 482400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 123
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.29246453E8(base:0.0)
+Average Dividend: 1292464
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1020100000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 256
+Inflation rate(last period): -0.7751937984496124
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-22T01:01:00.000Z(203)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.29246453E8(base:0.0)
+Average Dividend: 1292464
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 484800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 122
+Inflation rate(last period): -0.8130081300813008
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.29808699E8(base:0.0)
+Average Dividend: 1298086
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1030200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 255
+Inflation rate(last period): -0.390625
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-23T01:01:00.000Z(204)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.29808699E8(base:0.0)
+Average Dividend: 1298086
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 487200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 122
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.30368424E8(base:0.0)
+Average Dividend: 1303684
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1040400000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 253
+Inflation rate(last period): -0.7843137254901961
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-24T01:01:00.000Z(205)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.30368424E8(base:0.0)
+Average Dividend: 1303684
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 489600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 121
+Inflation rate(last period): -0.819672131147541
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.30928149E8(base:0.0)
+Average Dividend: 1309281
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1050600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 252
+Inflation rate(last period): -0.3952569169960474
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-25T01:01:00.000Z(206)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.30928149E8(base:0.0)
+Average Dividend: 1309281
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 492000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 120
+Inflation rate(last period): -0.8264462809917356
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.31485308E8(base:0.0)
+Average Dividend: 1314853
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1060900000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 250
+Inflation rate(last period): -0.7936507936507936
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-26T01:01:00.000Z(207)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.31485308E8(base:0.0)
+Average Dividend: 1314853
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 494400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 120
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.32042467E8(base:0.0)
+Average Dividend: 1320424
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1071200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 249
+Inflation rate(last period): -0.4
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-27T01:01:00.000Z(208)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.32042467E8(base:0.0)
+Average Dividend: 1320424
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 496800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 119
+Inflation rate(last period): -0.8333333333333334
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.32597151E8(base:0.0)
+Average Dividend: 1325971
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1081600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 248
+Inflation rate(last period): -0.40160642570281124
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-28T01:01:00.000Z(209)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.32597151E8(base:0.0)
+Average Dividend: 1325971
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 499200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 119
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.33151835E8(base:0.0)
+Average Dividend: 1331518
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1092000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 246
+Inflation rate(last period): -0.8064516129032258
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-29T01:01:00.000Z(210)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.33151835E8(base:0.0)
+Average Dividend: 1331518
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 501600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 118
+Inflation rate(last period): -0.8403361344537815
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.33704064E8(base:0.0)
+Average Dividend: 1337040
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1102500000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 245
+Inflation rate(last period): -0.4065040650406504
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-30T01:01:00.000Z(211)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.33704064E8(base:0.0)
+Average Dividend: 1337040
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 504000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 118
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.34256293E8(base:0.0)
+Average Dividend: 1342562
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1113000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 244
+Inflation rate(last period): -0.40816326530612246
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-07-31T01:01:00.000Z(212)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.34256293E8(base:0.0)
+Average Dividend: 1342562
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 506400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 117
+Inflation rate(last period): -0.847457627118644
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.34806062E8(base:0.0)
+Average Dividend: 1348060
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1123600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 242
+Inflation rate(last period): -0.819672131147541
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-01T01:01:00.000Z(213)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.34806062E8(base:0.0)
+Average Dividend: 1348060
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 508800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 116
+Inflation rate(last period): -0.8547008547008547
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.35355831E8(base:0.0)
+Average Dividend: 1353558
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1134200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 241
+Inflation rate(last period): -0.4132231404958678
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-02T01:01:00.000Z(214)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.35355831E8(base:0.0)
+Average Dividend: 1353558
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 511200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 116
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.35903119E8(base:0.0)
+Average Dividend: 1359031
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1144900000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 240
+Inflation rate(last period): -0.4149377593360996
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-03T01:01:00.000Z(215)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.35903119E8(base:0.0)
+Average Dividend: 1359031
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 513600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 115
+Inflation rate(last period): -0.8620689655172413
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.36450407E8(base:0.0)
+Average Dividend: 1364504
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1155600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 238
+Inflation rate(last period): -0.8333333333333334
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-04T01:01:00.000Z(216)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.36450407E8(base:0.0)
+Average Dividend: 1364504
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 516000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 115
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.36995267E8(base:0.0)
+Average Dividend: 1369952
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1166400000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 237
+Inflation rate(last period): -0.42016806722689076
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-05T01:01:00.000Z(217)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.36995267E8(base:0.0)
+Average Dividend: 1369952
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 518400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 114
+Inflation rate(last period): -0.8695652173913043
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.37540127E8(base:0.0)
+Average Dividend: 1375401
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1177200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 236
+Inflation rate(last period): -0.4219409282700422
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-06T01:01:00.000Z(218)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.37540127E8(base:0.0)
+Average Dividend: 1375401
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 520800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 114
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.38082659E8(base:0.0)
+Average Dividend: 1380826
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1188100000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 235
+Inflation rate(last period): -0.423728813559322
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-07T01:01:00.000Z(219)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.38082659E8(base:0.0)
+Average Dividend: 1380826
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 523200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 113
+Inflation rate(last period): -0.8771929824561403
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.38625191E8(base:0.0)
+Average Dividend: 1386251
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1199000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 233
+Inflation rate(last period): -0.851063829787234
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-08T01:01:00.000Z(220)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.38625191E8(base:0.0)
+Average Dividend: 1386251
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 525600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 113
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.39165291E8(base:0.0)
+Average Dividend: 1391652
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1210000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 232
+Inflation rate(last period): -0.4291845493562232
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-09T01:01:00.000Z(221)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.39165291E8(base:0.0)
+Average Dividend: 1391652
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 528000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 112
+Inflation rate(last period): -0.8849557522123894
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.39705391E8(base:0.0)
+Average Dividend: 1397053
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1221000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 231
+Inflation rate(last period): -0.43103448275862066
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-10T01:01:00.000Z(222)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.39705391E8(base:0.0)
+Average Dividend: 1397053
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 530400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 112
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.40243005E8(base:0.0)
+Average Dividend: 1402430
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1232100000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 230
+Inflation rate(last period): -0.4329004329004329
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-11T01:01:00.000Z(223)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.40243005E8(base:0.0)
+Average Dividend: 1402430
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 532800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 111
+Inflation rate(last period): -0.8928571428571429
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.40780619E8(base:0.0)
+Average Dividend: 1407806
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1243200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 229
+Inflation rate(last period): -0.43478260869565216
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-12T01:01:00.000Z(224)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.40780619E8(base:0.0)
+Average Dividend: 1407806
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 535200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 111
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.41315867E8(base:0.0)
+Average Dividend: 1413158
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1254400000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 227
+Inflation rate(last period): -0.8733624454148472
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-13T01:01:00.000Z(225)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.41315867E8(base:0.0)
+Average Dividend: 1413158
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 537600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 110
+Inflation rate(last period): -0.9009009009009009
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.41851115E8(base:0.0)
+Average Dividend: 1418511
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1265600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 226
+Inflation rate(last period): -0.44052863436123346
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-14T01:01:00.000Z(226)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.41851115E8(base:0.0)
+Average Dividend: 1418511
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 540000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 110
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.42383953E8(base:0.0)
+Average Dividend: 1423839
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1276900000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 225
+Inflation rate(last period): -0.4424778761061947
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-15T01:01:00.000Z(227)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.42383953E8(base:0.0)
+Average Dividend: 1423839
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 542400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 109
+Inflation rate(last period): -0.9090909090909091
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.42916791E8(base:0.0)
+Average Dividend: 1429167
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1288200000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 224
+Inflation rate(last period): -0.4444444444444444
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-16T01:01:00.000Z(228)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.42916791E8(base:0.0)
+Average Dividend: 1429167
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 544800
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 109
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.43447233E8(base:0.0)
+Average Dividend: 1434472
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1299600000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 223
+Inflation rate(last period): -0.44642857142857145
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-17T01:01:00.000Z(229)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.43447233E8(base:0.0)
+Average Dividend: 1434472
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 547200
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 108
+Inflation rate(last period): -0.9174311926605505
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.43977675E8(base:0.0)
+Average Dividend: 1439776
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1311000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 222
+Inflation rate(last period): -0.4484304932735426
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-18T01:01:00.000Z(230)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.43977675E8(base:0.0)
+Average Dividend: 1439776
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 549600
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 108
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.44505569E8(base:0.0)
+Average Dividend: 1445055
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1322500000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 221
+Inflation rate(last period): -0.45045045045045046
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-19T01:01:00.000Z(231)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.44505569E8(base:0.0)
+Average Dividend: 1445055
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 552000
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 107
+Inflation rate(last period): -0.9259259259259259
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.45033463E8(base:0.0)
+Average Dividend: 1450334
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 5.0
+Event: RunGoodsMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 1334000000
+Total value: 2147483647
+Offering(# of entities): 100
+Demanding(# of entities): 100000
+Average value: 220
+Inflation rate(last period): -0.45248868778280543
+--------------
+
+Priority: 6.0
+Event: RunDebtRecovery
+freq: P1D
+repeat: CONSTANTLY
+
+Debts:0(doubtful:0)
+Capital adequacy:0
+
+
+---------------
+
+
+		<PERIOD: 0000-08-20T01:01:00.000Z(232)>
+
+
+--------------
+
+Priority: 0.0
+Event: PollRecordables
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 1.0
+Event: RefreshTransients
+freq: P1D
+repeat: CONSTANTLY
+--------------
+
+Priority: 2.0
+Event: PayFirmDividends
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.45033463E8(base:0.0)
+Average Dividend: 1450334
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+--------------
+
+Priority: 3.0
+Event: RunLaborMarket
+RunMarket
+freq: P1D
+repeat: CONSTANTLY
+Total volume: 554400
+Total value: 59474123
+Offering(# of entities): 100000
+Demanding(# of entities): 100
+Average value: 107
+Inflation rate(last period): 0.0
+--------------
+
+Priority: 4.0
+Event: RunProduction
+freq: P1D
+repeat: CONSTANTLY
+Firms (#): 100
+Total Dividend: 1.45558885E8(base:0.0)
+Average Dividend: 1455588
+Prices: null
+Wage:
+	Upward Flex: 0.5
+	Downward Flex: 0.5
+AdaptationManager:
+Valuable Rate: 0
+Frequency: 1
+Tournament Size: 15
+Audacity: 0.5
+

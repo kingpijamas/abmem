@@ -1,0 +1,422 @@
+<class-diagram version="1.0.6" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="jamel.agents.firm.FirmsSector.Event_setPropensityToDropWages" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="220" x="286" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firms.Firm" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firms/Firm.java" binary="false">    
+    <position height="1011" width="446" x="2224" y="520"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_setReserveTarget" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="162" x="546" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firms.FirmsSector" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firms/FirmsSector.java" binary="false">    
+    <position height="483" width="392" x="2010" y="-505"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_setFlexProd" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="146" x="748" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_newFirms2" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="147" width="146" x="1843" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="7" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmDataLabels" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmDataLabels.java" binary="false">    
+    <position height="515" width="248" x="1004" y="-505"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.Store.ClosedState" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/Store.java" binary="false">    
+    <position height="131" width="193" x="2284" y="2326"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" 
+    name="jamel.agents.firm.FirmsSector.Event_setLabourContractDuration" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="216" x="934" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_setProductionTime" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="169" x="2050" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_newProtectedFirms" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="83" width="173" x="2044" y="253"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.WorkforceManager" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/WorkforceManager.java" binary="false">    
+    <position height="715" width="342" x="1861" y="1571"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.Store.StoreState" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/Store.java" binary="false">    
+    <position height="115" width="193" x="2731" y="2609"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.Store.OpenState" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/Store.java" binary="false">    
+    <position height="131" width="193" x="2517" y="2326"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_setMinimumWage" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="164" x="1190" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="16" corner="BOTTOM_RIGHT" language="java" 
+    name="jamel.agents.firm.FirmsSector.Event_setWageUpwardFlexibility" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="208" x="1394" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="17" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_newFirms" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="163" width="159" x="2259" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="18" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmBehavior" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/FirmBehavior.java" binary="false">    
+    <position height="367" width="284" x="2264" y="1571"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmSettings" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/FirmSettings.java" binary="false">    
+    <position height="243" width="334" x="1910" y="2326"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_setPriceFlexibility" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="161" x="1642" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="21" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.Store" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firm/Store.java" binary="false">    
+    <position height="275" width="198" x="2731" y="1571"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="22" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.ProductionManager" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/ProductionManager.java" binary="false">    
+    <position height="163" width="206" x="1575" y="253"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="23" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firm.FirmsSector.Event_changeProductivity" 
+    project="meddon-jammel" file="/meddon-jammel/src/jamel/agents/firm/FirmsSector.java" binary="false">    
+    <position height="115" width="170" x="2458" y="50"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="24" corner="BOTTOM_RIGHT" language="java" name="jamel.agents.firms.PriceManager" project="meddon-jammel" 
+    file="/meddon-jammel/src/jamel/agents/firms/PriceManager.java" binary="false">    
+    <position height="227" width="162" x="1821" y="253"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association id="25">    
+    <bendpoint x="2658" y="50"/>    
+    <bendpoint x="2658" y="253"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="26" name="firmsList"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="28">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <nesting id="29">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <association id="30">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="31" name="productionManager"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <bendpoint x="1752" y="520"/>    
+    <bendpoint x="1752" y="1571"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="34" name="settings"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="37">    
+    <bendpoint x="2233" y="1571"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <nesting id="38">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <dependency id="39">    
+    <bendpoint x="2350" y="253"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <nesting id="40">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </nesting>  
+  <association id="41">    
+    <bendpoint x="2761" y="2326"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="42" name="state"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="44">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <association id="45">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="46" name="firm"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="49" name="behavior"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="52" name="store"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="54">    
+    <bendpoint x="2013" y="253"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <nesting id="55">    
+    <bendpoint x="2019" y="50"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </nesting>  
+  <nesting id="56">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </nesting>  
+  <nesting id="57">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <association id="58">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="59" name="settings"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="61">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <dependency id="62">    
+    <bendpoint x="2268" y="253"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="63">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="64">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="65" name="workforceManager"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="67">    
+    <bendpoint x="2247" y="253"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="68">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="69" name="priceManager"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <bendpoint x="2679" y="253"/>    
+    <bendpoint x="2679" y="50"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="72" name="sector"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="74">    
+    <bendpoint x="2740" y="2326"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <association id="75">    
+    <bendpoint x="2700" y="50"/>    
+    <bendpoint x="2700" y="253"/>    
+    <bendpoint x="2700" y="520"/>    
+    <bendpoint x="2700" y="1571"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="76" name="firmSettings"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="78">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <nesting id="79">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <nesting id="80">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <association id="81">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="82" name="firm"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="84">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <realization id="85">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <nesting id="86">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <nesting id="87">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

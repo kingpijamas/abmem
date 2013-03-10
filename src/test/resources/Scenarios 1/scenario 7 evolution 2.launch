@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.javaApplet">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Jamel Project 0.2.1 - Soumeil"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jamel.MainIN_TYPE" value="jamel.Main"/>
+<intAttribute key="org.eclipse.jdt.launching.APPLET_HEIGHT" value="200"/>
+<stringAttribute key="org.eclipse.jdt.launching.APPLET_NAME" value="Jamel"/>
+<mapAttribute key="org.eclipse.jdt.launching.APPLET_PARAMETERS">
+<mapEntry key="bank.setAccommodating" value="true"/>
+<mapEntry key="bank.setCapitalRatio" value="0.10"/>
+<mapEntry key="bank.setRate" value="0.05"/>
+<mapEntry key="bank.setTerm" value="12"/>
+<mapEntry key="circuit.setEnd" value="2500-01"/>
+<mapEntry key="circuit.setRandomSeed" value="0"/>
+<mapEntry key="circuit.verbose" value="false"/>
+<mapEntry key="event_0" value="2005-01 bank.setAccommodating(false)"/>
+<mapEntry key="event_1" value="2100-01 circuit.pause()"/>
+<mapEntry key="event_1_beep" value="true"/>
+<mapEntry key="firms.adaptative.setAdaptationAudacity" value=".5"/>
+<mapEntry key="firms.adaptive.setAdaptationFrequency" value="8"/>
+<mapEntry key="firms.adaptive.setInventoriesTarget" value="2.5,5.5,0,100,true"/>
+<mapEntry key="firms.adaptive.setMarkupTarget" value="1.25,1.75,0,100,true"/>
+<mapEntry key="firms.adaptive.setPriceFlexibility" value="0.1,0.1,0,1,false"/>
+<mapEntry key="firms.adaptive.setPricingPolicy" value="0.25,0.75,0,1,true"/>
+<mapEntry key="firms.adaptive.setReserveTarget" value="0.5,0.5,0.5,0.5,false"/>
+<mapEntry key="firms.newFirms" value="580,10-0,100-0,0.25"/>
+<mapEntry key="firms.setLabourContractDuration" value="12-6"/>
+<mapEntry key="firms.setMinimumWage" value="1"/>
+<mapEntry key="firms.setNormalVacancyRate" value="0.03"/>
+<mapEntry key="firms.setProductionFlexibility" value="10"/>
+<mapEntry key="firms.setProductionTime" value="6"/>
+<mapEntry key="firms.setWageDownwardFlexibility" value="0.08"/>
+<mapEntry key="firms.setWageUpwardFlexibility" value="0.06"/>
+<mapEntry key="households.newHouseholds" value="5000"/>
+<mapEntry key="households.setFlexibility" value="0.07"/>
+<mapEntry key="households.setMarketSearch" value="10"/>
+<mapEntry key="households.setResistance" value="12"/>
+<mapEntry key="households.setSavingPropensity" value="0.05"/>
+<mapEntry key="mainPanel.setChart5" value="Industry.Inventory Stocks"/>
+<mapEntry key="mainPanel.setChart7" value="Industry.Capacity Utilization"/>
+<mapEntry key="simulation.autoRun" value="true"/>
+<mapEntry key="simulation.title" value="Scenario 7 Evolution 2"/>
+</mapAttribute>
+<intAttribute key="org.eclipse.jdt.launching.APPLET_WIDTH" value="200"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Jamel Project 0.2.1 - Soumeil"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx256m"/>
+</launchConfiguration>
