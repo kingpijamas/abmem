@@ -1,6 +1,8 @@
+bin/*
 *.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+*fossil*
+*FOSSIL*
+*.project
+*.classpath
+*.checkstyle
+*.settings
