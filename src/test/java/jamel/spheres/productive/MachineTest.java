@@ -11,7 +11,7 @@ import org.joda.time.Period;
 import org.junit.Before;
 import org.junit.Test;
 
-import economicCycle.Cycle;
+import economicCycle.EconomicCycle;
 import economicCycle.scheduling.SimulationEvent;
 
 public class MachineTest {
@@ -31,14 +31,14 @@ public class MachineTest {
 
 	@Before
 	public void setUp() throws Exception {
-		sut = new Machine(new Cycle(START, END, STEP), PRODUCTIVITY,
+		sut = new Machine(new EconomicCycle(START, END, STEP), PRODUCTIVITY,
 				PRODUCTIONTIME);
 		Produce.product = null;
 	}
 
 	@Test
 	public void testProduceGoods() {
-		Cycle c = sut.getCycle();
+		EconomicCycle c = sut.getCycle();
 		c.addEvent(new Produce(), START, c.getLastPriority(), 1,
 				(PRODUCTIONTIME * PRODUCTIONCYCLES) - 1);
 		int periods = 0;
@@ -57,7 +57,7 @@ public class MachineTest {
 
 	@Test
 	public void testGetUnfinishedGoodsValue() {
-		Cycle c = sut.getCycle();
+		EconomicCycle c = sut.getCycle();
 		c.addEvent(new Produce(), START, c.getLastPriority(), 1,
 				(PRODUCTIONTIME * PRODUCTIONCYCLES) - 1);
 		int prev = 0;

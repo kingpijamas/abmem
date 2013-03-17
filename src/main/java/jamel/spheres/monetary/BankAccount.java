@@ -27,8 +27,8 @@
 
 package jamel.spheres.monetary;
 
-import economicCycle.Cycle;
-import economicCycle.CycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.CycleElement;
 
 /**
  * Represents an account.
@@ -53,8 +53,8 @@ public class BankAccount extends CycleElement {
 	 *            the account holder.
 	 * @param protection
 	 */
-	BankAccount(Cycle circuit, Bank bank) {
-		super(circuit);
+	BankAccount(Cycle cycle, Bank bank) {
+		super(cycle);
 		this.bank = bank;
 		this.deposit = 0;
 		this.unusableDeposit = 0;

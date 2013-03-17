@@ -8,8 +8,8 @@ import jamel.markets.labor.Worker;
 import jamel.spheres.monetary.Bank;
 import jamel.spheres.monetary.BankAccount;
 import jamel.utils.StatisticalTransientNumber;
-import economicCycle.Cycle;
-import economicCycle.CycleElement;
+import scheduling.cycle.CycleElement;
+import economicCycle.EconomicCycle;
 
 public class Household extends CycleElement implements Consuming<Goods> {
 	private static int MAX_MARKET_CRAWLING_INTENTS = 1;
@@ -24,7 +24,7 @@ public class Household extends CycleElement implements Consuming<Goods> {
 
 	private StatisticalTransientNumber income;// TODO
 
-	public Household(Cycle circuit, Bank bank, double savingPropensity) {
+	public Household(EconomicCycle circuit, Bank bank, double savingPropensity) {
 		super(circuit);
 		this.savingPropensity = savingPropensity;
 		this.account = bank.openAccount();

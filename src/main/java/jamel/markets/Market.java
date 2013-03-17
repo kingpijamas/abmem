@@ -32,8 +32,8 @@ import jamel.utils.StatisticalTransientNumber;
 import java.util.HashSet;
 import java.util.Set;
 
-import economicCycle.Cycle;
-import economicCycle.CycleElement;
+import scheduling.cycle.CycleElement;
+import economicCycle.EconomicCycle;
 
 /**
  * A base class providing common services for markets.
@@ -54,7 +54,7 @@ public abstract class Market<T extends Offerable, U extends Demanding<T>>
 	/** The average price of the previous period. */
 	private double lastPrice;
 
-	public Market(Cycle circuit) {
+	public Market(EconomicCycle circuit) {
 		super(circuit);
 		this.supply = new HashSet<Offering<T>>();
 		this.demand = new HashSet<U>();

@@ -15,7 +15,7 @@ import java.util.List;
 
 import org.joda.time.Years;
 
-import economicCycle.CycleElement;
+import scheduling.cycle.CycleElement;
 import economicCycle.scheduling.events.FirmComeback;
 
 public class Firm extends CycleElement implements Offering<Goods>, Borrower {

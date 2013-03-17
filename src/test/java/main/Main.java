@@ -10,14 +10,14 @@ import org.joda.time.DateTime;
 import org.joda.time.Months;
 import org.joda.time.Period;
 
-import economicCycle.Cycle;
+import economicCycle.EconomicCycle;
 
 public class Main {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
 		DateTime start = new DateTime(0, 1, 1, 1, 1);
 		DateTime end = start.plus(Months.THREE);
-		Cycle circuit = new Cycle(start, end, new Period(24, 0, 0, 0));
+		EconomicCycle circuit = new EconomicCycle(start, end, new Period(24, 0, 0, 0));
 		ProductiveSector firms = new ProductiveSector(circuit, 1, 0.5, 0.5, 0.5);
 		Bank bank = new Bank(circuit, 0.05, 0.1);
 		World.init(circuit, firms, bank);

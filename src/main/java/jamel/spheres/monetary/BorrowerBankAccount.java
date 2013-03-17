@@ -1,6 +1,6 @@
 package jamel.spheres.monetary;
 
-import economicCycle.Cycle;
+import scheduling.cycle.Cycle;
 
 public class BorrowerBankAccount extends BankAccount {
 	private static final boolean DEFAULT_PROTECTION = false;
@@ -17,16 +17,16 @@ public class BorrowerBankAccount extends BankAccount {
 		return ans;
 	}
 
-	BorrowerBankAccount(Cycle circuit, Bank bank, Borrower owner,
+	BorrowerBankAccount(Cycle cycle, Bank bank, Borrower owner,
 			boolean protection) {
-		super(circuit, bank);
+		super(cycle, bank);
 		this.protection = protection;
 		this.owner = owner;
 		this.debt = new Debt();
 	}
 
-	BorrowerBankAccount(Cycle circuit, Bank bank, Borrower owner) {
-		this(circuit, bank, owner, DEFAULT_PROTECTION);
+	BorrowerBankAccount(Cycle cycle, Bank bank, Borrower owner) {
+		this(cycle, bank, owner, DEFAULT_PROTECTION);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class BorrowerBankAccount extends BankAccount {
 		credit(loan.getPrincipal());
 	}
 
-	void subtractForLoans(long amount) {//XXX: Ours, will have to go soon
+	void subtractForLoans(long amount) {// XXX: Ours, will have to go soon
 		if (amount < 0) {
 			throw new IllegalArgumentException("Subtracting a negative amount");
 		}

@@ -35,15 +35,15 @@ import java.util.List;
 import org.joda.time.Days;
 import org.joda.time.ReadablePeriod;
 
-import economicCycle.Cycle;
-import economicCycle.ExpiringCycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.ExpiringElement;
 
 /**
  * A base class for cheques.
  * <p>
  * Last update: 19-Jun-2011
  */
-public class Cheque extends ExpiringCycleElement {
+public class Cheque extends ExpiringElement {
 
 	private static final List<Cheque> instances = new LinkedList<Cheque>();
 	/*
@@ -64,9 +64,9 @@ public class Cheque extends ExpiringCycleElement {
 	 * @param payee
 	 *            the payee.
 	 */
-	Cheque(Cycle circuit, BankAccount payer, BankAccount payee, long amount,
+	Cheque(Cycle cycle, BankAccount payer, BankAccount payee, long amount,
 			ReadablePeriod duration) {
-		super(circuit, duration);
+		super(cycle, duration);
 		this.amount = amount;
 		this.payer = payer;
 		this.payee = payee;
@@ -79,8 +79,8 @@ public class Cheque extends ExpiringCycleElement {
 		// System.out.println("---");
 	}
 
-	Cheque(Cycle circuit, BankAccount payer, BankAccount payee, long amount) {
-		this(circuit, payer, payee, amount, DEFAULT_TERM);
+	Cheque(Cycle cycle, BankAccount payer, BankAccount payee, long amount) {
+		this(cycle, payer, payee, amount, DEFAULT_TERM);
 	}
 
 	/**

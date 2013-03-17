@@ -13,10 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import economicCycle.Cycle;
-import economicCycle.RegularUseCycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.RegularUseElement;
 
-public class Employer extends RegularUseCycleElement implements
+public class Employer extends RegularUseElement implements
 		Demanding<Labor> {
 
 	private double ACCEPTABLE_VACANCIES_RATE = 0.3;// TODO: fruta number
@@ -33,13 +33,13 @@ public class Employer extends RegularUseCycleElement implements
 	private Wage offeredWage;
 	private PriorityQueue<EmploymentContract> contracts;
 
-	public Employer(Cycle circuit, Factory factory, BankAccount financing, Wage wage) {
-		super(circuit);
+	public Employer(Cycle cycle, Factory factory, BankAccount financing, Wage wage) {
+		super(cycle);
 		this.contracts = new PriorityQueue<EmploymentContract>();
 		this.offeredWage = wage;
 		this.financing = financing;
 		this.factory = factory;
-		this.vacancyRate = new Recordable<Double>(circuit, 1.0);// TODO:
+		this.vacancyRate = new Recordable<Double>(cycle, 1.0);// TODO:
 																// Original
 																// vacancy rate:
 																// 100%

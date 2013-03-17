@@ -6,13 +6,13 @@ import org.joda.time.DateTime;
 import org.joda.time.ReadablePeriod;
 import org.joda.time.Years;
 
-import economicCycle.Cycle;
-import economicCycle.ExpiringCycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.ExpiringElement;
 
 /**
  * Represents a loan.
  */
-public class Loan extends ExpiringCycleElement implements Comparable<Loan> {
+public class Loan extends ExpiringElement implements Comparable<Loan> {
 
 	private static final ReadablePeriod DEFAULT_TERM = Years.ONE;
 
@@ -42,9 +42,9 @@ public class Loan extends ExpiringCycleElement implements Comparable<Loan> {
 	 * @param term
 	 *            the term.
 	 */
-	Loan(Cycle circuit, BorrowerBankAccount acc, long principal,
+	Loan(Cycle cycle, BorrowerBankAccount acc, long principal,
 			LoanQualities quality, double interestRate, ReadablePeriod term) {
-		super(circuit, term);
+		super(cycle, term);
 		if (principal <= 0) {
 			throw new IllegalArgumentException(
 					"The principal must be strictly positive.");
@@ -56,9 +56,9 @@ public class Loan extends ExpiringCycleElement implements Comparable<Loan> {
 		this.account = acc;
 	}
 
-	Loan(Cycle circuit, BorrowerBankAccount acc, long principal,
+	Loan(Cycle cycle, BorrowerBankAccount acc, long principal,
 			double interestRate) {
-		this(circuit, acc, principal, LoanQualities.GOOD, interestRate,
+		this(cycle, acc, principal, LoanQualities.GOOD, interestRate,
 				DEFAULT_TERM);
 	}
 

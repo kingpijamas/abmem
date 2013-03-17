@@ -33,7 +33,7 @@ import jamel.markets.Offering;
 
 import java.util.Iterator;
 
-import economicCycle.Cycle;
+import economicCycle.EconomicCycle;
 
 /**
  * Represents a goods market.
@@ -42,7 +42,7 @@ import economicCycle.Cycle;
  */
 public class GoodsMarket extends Market<Goods, Household> {
 
-	public GoodsMarket(Cycle circuit) {
+	public GoodsMarket(EconomicCycle circuit) {
 		super(circuit);
 	}
 

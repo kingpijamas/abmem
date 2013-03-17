@@ -11,19 +11,19 @@ import jamel.utils.JamelRandom;
 import java.util.LinkedList;
 import java.util.List;
 
-import economicCycle.Cycle;
+import economicCycle.EconomicCycle;
 
 public class World {
 
 	private static World instance;
 	private Bank bank;
-	private Cycle circuit;
+	private EconomicCycle circuit;
 	private List<Household> households;
 	private ProductiveSector firms;
 	private LaborMarket laborMarket;
 	private GoodsMarket goodsMarket;
 
-	private World(Cycle circuit, ProductiveSector firms, Bank bank)
+	private World(EconomicCycle circuit, ProductiveSector firms, Bank bank)
 			throws CloneNotSupportedException {
 		this.circuit = circuit;
 		this.laborMarket = new LaborMarket(circuit);
@@ -33,7 +33,7 @@ public class World {
 		this.households = new LinkedList<Household>();
 	}
 
-	public static void init(Cycle circuit, ProductiveSector firms, Bank bank)
+	public static void init(EconomicCycle circuit, ProductiveSector firms, Bank bank)
 			throws CloneNotSupportedException {
 		if (instance != null) {
 			throw new UnexpectedInvocationException();
@@ -61,7 +61,7 @@ public class World {
 		return bank;
 	}
 
-	public Cycle getCycle() {
+	public EconomicCycle getCycle() {
 		return circuit;
 	}
 

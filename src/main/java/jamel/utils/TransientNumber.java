@@ -3,8 +3,9 @@ package jamel.utils;
 import java.util.LinkedList;
 import java.util.List;
 
-import economicCycle.Cycle;
-import economicCycle.CycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.CycleElement;
+import economicCycle.EconomicCycle;
 import economicCycle.scheduling.SimulationEvent;
 
 public class TransientNumber extends CycleElement {
@@ -17,16 +18,16 @@ public class TransientNumber extends CycleElement {
 	private int maxlifetimeInPeriods;
 	private int step;
 
-	public TransientNumber(Cycle circuit, double baseValue,
+	public TransientNumber(Cycle cycle, double baseValue,
 			int maxlifetimeInPeriods) {
-		super(circuit);
+		super(cycle);
 		this.value = baseValue;
 		this.baseValue = baseValue;
 		this.maxlifetimeInPeriods = maxlifetimeInPeriods;
 		this.step = 0;
 	}
 
-	public TransientNumber(Cycle circuit) {
+	public TransientNumber(EconomicCycle circuit) {
 		this(circuit, DEFAULT_BASE_VALUE, LIFETIME_IN_PERIODS);
 	}
 

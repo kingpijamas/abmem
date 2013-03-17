@@ -40,8 +40,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import economicCycle.Cycle;
-import economicCycle.CycleElement;
+import scheduling.cycle.CycleElement;
+import economicCycle.EconomicCycle;
 
 /**
  * Represents the firms sector.
@@ -86,7 +86,7 @@ public class ProductiveSector extends CycleElement {
 	 * @param goodsMarket
 	 *            the goods market.
 	 */
-	public ProductiveSector(Cycle circuit, int frequency, double audacity,
+	public ProductiveSector(EconomicCycle circuit, int frequency, double audacity,
 			double wageUpwardFlexibility, double wageDownwardFlexibility) {
 		super(circuit);
 		this.firms = new LinkedList<Firm>();

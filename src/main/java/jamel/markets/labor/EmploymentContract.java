@@ -35,8 +35,8 @@ import org.joda.time.Months;
 import org.joda.time.Period;
 import org.joda.time.ReadablePeriod;
 
-import economicCycle.Cycle;
-import economicCycle.ExpiringCycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.ExpiringElement;
 
 /**
  * Represents a job contract.
@@ -46,7 +46,7 @@ import economicCycle.ExpiringCycleElement;
  * <p>
  * Last update: 19-Jun-2011.
  */
-public class EmploymentContract extends ExpiringCycleElement implements
+public class EmploymentContract extends ExpiringElement implements
 		Comparable<EmploymentContract> {
 	private static final ReadablePeriod MINDURATION = Months.THREE;// TODO:
 																	// magic
@@ -70,9 +70,9 @@ public class EmploymentContract extends ExpiringCycleElement implements
 	 * @param term
 	 *            the term.
 	 */
-	public EmploymentContract(Cycle circuit, Employer employer,
+	public EmploymentContract(Cycle cycle, Employer employer,
 			Worker employee, long wage) {
-		super(circuit, new Period(Math.abs(new JamelRandom().nextInt()))
+		super(cycle, new Period(Math.abs(new JamelRandom().nextInt()))
 				.plus(MINDURATION));
 		this.employer = employer;
 		if (!employee.isUnemployed()) {

@@ -7,7 +7,7 @@ import org.joda.time.Period;
 import org.junit.Before;
 import org.junit.Test;
 
-import economicCycle.Cycle;
+import economicCycle.EconomicCycle;
 import economicCycle.scheduling.SimulationEvent;
 
 public class CircuitTest {
@@ -16,11 +16,11 @@ public class CircuitTest {
 	private static final DateTime END = new DateTime(1000);
 	private static final Period STEP = new Period(1);
 
-	private static Cycle sut;
+	private static EconomicCycle sut;
 
 	@Before
 	public void setUp() throws Exception {
-		sut = new Cycle(START, END, STEP);
+		sut = new EconomicCycle(START, END, STEP);
 	}
 
 	@Test

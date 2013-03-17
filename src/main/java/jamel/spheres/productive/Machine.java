@@ -29,8 +29,8 @@ package jamel.spheres.productive;
 
 import jamel.markets.goods.Goods;
 import jamel.markets.labor.Labor;
-import economicCycle.Cycle;
-import economicCycle.RegularUseCycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.RegularUseElement;
 
 /**
  * Represents a machine.
@@ -43,7 +43,7 @@ import economicCycle.RegularUseCycleElement;
  * <p>
  * Last update: 19-Jun-2011
  */
-public class Machine extends RegularUseCycleElement implements
+public class Machine extends RegularUseElement implements
 		Comparable<Machine> {
 
 	/** The production process. */
@@ -62,8 +62,8 @@ public class Machine extends RegularUseCycleElement implements
 	 * @param productionTime
 	 *            the production cycle time.
 	 */
-	public Machine(Cycle circuit, int productivity, int productionTime) {
-		super(circuit);
+	public Machine(Cycle cycle, int productivity, int productionTime) {
+		super(cycle);
 		this.productivity = productivity;
 		this.productionTime = productionTime;
 		this.process = new ProductionProcess(getCycle(), productivity,

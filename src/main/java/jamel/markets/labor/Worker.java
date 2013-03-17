@@ -3,10 +3,10 @@ package jamel.markets.labor;
 import jamel.markets.Offering;
 import jamel.spheres.monetary.BankAccount;
 import jamel.utils.JamelRandom;
-import economicCycle.Cycle;
-import economicCycle.RegularUseCycleElement;
+import scheduling.cycle.RegularUseElement;
+import economicCycle.EconomicCycle;
 
-public class Worker extends RegularUseCycleElement implements Offering<Labor> {
+public class Worker extends RegularUseElement implements Offering<Labor> {
 	private static final int NOT_UNEMPLOYED = -1;
 	private static final double DEFAULT_RESISTANCE = 1;
 	private static final double DEFAULT_FLEXIBILITY = 1;
@@ -22,7 +22,7 @@ public class Worker extends RegularUseCycleElement implements Offering<Labor> {
 	private long reservationWage;
 	private BankAccount account;
 
-	public Worker(Cycle circuit, BankAccount account) {
+	public Worker(EconomicCycle circuit, BankAccount account) {
 		super(circuit);
 		this.account = account;
 		this.periodsUnemployed = 0;

@@ -3,8 +3,8 @@ package jamel.agents.firms;
 import jamel.agents.adaptation.AdaptiveObject;
 import jamel.agents.adaptation.AdaptiveVariable;
 import jamel.utils.JamelRandom;
-import economicCycle.Cycle;
-import economicCycle.CycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.CycleElement;
 
 public class FirmPolicy extends CycleElement implements PolicyMaker,
 		AdaptiveObject {
@@ -29,8 +29,8 @@ public class FirmPolicy extends CycleElement implements PolicyMaker,
 	private AdaptiveVariable priceFlexibility = new AdaptiveVariable(
 			DEFAULT_PRICING_FLEXIBILITY);
 
-	public FirmPolicy(Cycle circuit, Firm firm) {
-		super(circuit);
+	public FirmPolicy(Cycle cycle, Firm firm) {
+		super(cycle);
 		this.firm = firm;
 	}
 

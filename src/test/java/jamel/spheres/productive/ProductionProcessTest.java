@@ -14,7 +14,7 @@ import org.joda.time.Period;
 import org.junit.Before;
 import org.junit.Test;
 
-import economicCycle.Cycle;
+import economicCycle.EconomicCycle;
 import economicCycle.scheduling.SimulationEvent;
 
 /**
@@ -36,7 +36,7 @@ public class ProductionProcessTest {
 
 	@Before
 	public void setUp() throws Exception {
-		sut = new ProductionProcess(new Cycle(START, END, STEP), PRODUCTIVITY,
+		sut = new ProductionProcess(new EconomicCycle(START, END, STEP), PRODUCTIVITY,
 				PRODUCTIONTIME);
 	}
 
@@ -47,7 +47,7 @@ public class ProductionProcessTest {
 	 */
 	@Test
 	public void testProduce() {
-		Cycle c = sut.getCycle();
+		EconomicCycle c = sut.getCycle();
 		c.addEvent(new Produce(), START, c.getLastPriority(), 1,
 				PRODUCTIONTIME - 1);
 

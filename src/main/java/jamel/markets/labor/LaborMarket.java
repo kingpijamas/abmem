@@ -5,11 +5,11 @@ import jamel.markets.Offering;
 
 import java.util.List;
 
-import economicCycle.Cycle;
+import economicCycle.EconomicCycle;
 
 public class LaborMarket extends Market<Labor, Employer> {
 
-	public LaborMarket(Cycle circuit) {
+	public LaborMarket(EconomicCycle circuit) {
 		super(circuit);
 	}
 

@@ -29,8 +29,9 @@ package jamel.spheres.productive;
 
 import jamel.markets.goods.Goods;
 import jamel.markets.labor.Labor;
-import economicCycle.Cycle;
-import economicCycle.RegularUseCycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.RegularUseElement;
+import economicCycle.EconomicCycle;
 
 /**
  * Represents a production process.
@@ -41,7 +42,7 @@ import economicCycle.RegularUseCycleElement;
  * <p>
  * Last update: 19-Jun-2011
  */
-public class ProductionProcess extends RegularUseCycleElement {
+public class ProductionProcess extends RegularUseElement {
 
 	final private int productionTime;
 	final private double productivity;
@@ -59,8 +60,9 @@ public class ProductionProcess extends RegularUseCycleElement {
 	 *                 labour-power expenditures required to complete the
 	 *                 process).
 	 */
-	ProductionProcess(Cycle circuit, int productivity, int productionTime) {
-		super(circuit);
+	ProductionProcess(Cycle cycle, int productivity,
+			int productionTime) {
+		super(cycle);
 		this.productivity = productivity;
 		this.productionTime = productionTime;
 	}

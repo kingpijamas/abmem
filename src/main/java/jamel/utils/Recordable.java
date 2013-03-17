@@ -5,8 +5,8 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-import economicCycle.Cycle;
-import economicCycle.CycleElement;
+import scheduling.cycle.Cycle;
+import scheduling.cycle.CycleElement;
 import economicCycle.scheduling.SimulationEvent;
 
 public class Recordable<V extends Number> extends CycleElement {
@@ -24,12 +24,12 @@ public class Recordable<V extends Number> extends CycleElement {
 		return records.toString();
 	}
 
-	public Recordable(Cycle circuit, V start) {
-		this(circuit, DEFAULT_MAX_STEPS_PER_RECORD, start);
+	public Recordable(Cycle cycle, V start) {
+		this(cycle, DEFAULT_MAX_STEPS_PER_RECORD, start);
 	}
 
-	public Recordable(Cycle circuit, int maxStepsPerRecord, V start) {
-		super(circuit);
+	public Recordable(Cycle cycle, int maxStepsPerRecord, V start) {
+		super(cycle);
 		this.records = new LinkedList<V>();
 		this.start = start;
 		setValue(start);

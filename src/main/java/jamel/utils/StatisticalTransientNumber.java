@@ -1,6 +1,7 @@
 package jamel.utils;
 
-import economicCycle.Cycle;
+import scheduling.cycle.Cycle;
+import economicCycle.EconomicCycle;
 
 public class StatisticalTransientNumber extends TransientNumber {
 
@@ -8,16 +9,16 @@ public class StatisticalTransientNumber extends TransientNumber {
 	private int pollSize;
 	private double buffer;
 
-	public StatisticalTransientNumber(Cycle circuit, int pollSize) {
+	public StatisticalTransientNumber(EconomicCycle circuit, int pollSize) {
 		super(circuit);
 		this.pollSize = pollSize;
 		this.buffer = 0;
 		this.i = 0;
 	}
 
-	public StatisticalTransientNumber(Cycle circuit, double baseValue,
+	public StatisticalTransientNumber(Cycle cycle, double baseValue,
 			int lifetimeInPeriods, int pollSize) {
-		super(circuit, baseValue, lifetimeInPeriods);
+		super(cycle, baseValue, lifetimeInPeriods);
 		this.pollSize = pollSize;
 		this.buffer = 0;
 		this.i = 0;

@@ -35,8 +35,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import economicCycle.Cycle;
-import economicCycle.CycleElement;
+import scheduling.cycle.CycleElement;
+import economicCycle.EconomicCycle;
 
 /**
  * Represents the single representative bank.
@@ -65,7 +65,7 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 	/**
 	 * Creates a new bank.
 	 */
-	public Bank(Cycle circuit, double annualInterestRate, double capitalRatio) {
+	public Bank(EconomicCycle circuit, double annualInterestRate, double capitalRatio) {
 		super(circuit);
 		this.accounts = new HashSet<BankAccount>();
 		this.borrowerAccounts = new HashSet<BorrowerBankAccount>();
