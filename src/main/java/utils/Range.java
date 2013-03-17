@@ -1,4 +1,4 @@
-package jamel.utils;
+package utils;
 
 public class Range {
 	private static final int NOT_INIT = -1;

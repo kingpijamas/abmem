@@ -1,8 +1,9 @@
 package jamel.agents.adaptation;
 
-import jamel.utils.JamelRandom;
 
 import java.util.List;
+
+import utils.JamelRandom;
 
 class Tournament<A extends AdaptiveObject> {
 	private static final int SELECTION_SIZE = 3;

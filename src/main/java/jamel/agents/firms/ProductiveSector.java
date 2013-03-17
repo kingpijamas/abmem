@@ -33,14 +33,14 @@ import jamel.markets.goods.GoodsMarket;
 import jamel.markets.labor.LaborMarket;
 import jamel.markets.labor.Wage;
 import jamel.spheres.productive.Machine;
-import jamel.utils.Range;
-import jamel.utils.StatisticalTransientNumber;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 import scheduling.cycle.CycleElement;
+import utils.Range;
+import utils.StatisticalTransientNumber;
 import economicCycle.EconomicCycle;
 
 /**

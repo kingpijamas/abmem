@@ -6,7 +6,6 @@ package jamel.spheres.productive;
 import static org.junit.Assert.fail;
 import jamel.markets.goods.Goods;
 import jamel.markets.labor.Labor;
-import jamel.spheres.productive.ProductionProcess;
 
 import org.joda.time.DateTime;
 import org.joda.time.Days;
@@ -14,8 +13,9 @@ import org.joda.time.Period;
 import org.junit.Before;
 import org.junit.Test;
 
+import scheduling.cycle.Cycle;
+import scheduling.schedule.SimulationEvent;
 import economicCycle.EconomicCycle;
-import economicCycle.scheduling.SimulationEvent;
 
 /**
  * @author jp
@@ -47,7 +47,7 @@ public class ProductionProcessTest {
 	 */
 	@Test
 	public void testProduce() {
-		EconomicCycle c = sut.getCycle();
+		Cycle c = sut.getCycle();
 		c.addEvent(new Produce(), START, c.getLastPriority(), 1,
 				PRODUCTIONTIME - 1);
 

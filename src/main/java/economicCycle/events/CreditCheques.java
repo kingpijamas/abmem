@@ -1,7 +1,7 @@
-package economicCycle.scheduling.events;
+package economicCycle.events;
 
 import jamel.spheres.monetary.Cheque;
-import economicCycle.scheduling.SimulationEvent;
+import scheduling.schedule.SimulationEvent;
 
 public class CreditCheques extends SimulationEvent {
 

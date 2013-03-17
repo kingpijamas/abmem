@@ -1,12 +1,12 @@
-package jamel.utils;
+package utils;
 
 import java.util.LinkedList;
 import java.util.List;
 
 import scheduling.cycle.Cycle;
 import scheduling.cycle.CycleElement;
+import scheduling.schedule.SimulationEvent;
 import economicCycle.EconomicCycle;
-import economicCycle.scheduling.SimulationEvent;
 
 public class TransientNumber extends CycleElement {
 	private static final List<TransientNumber> instances = new LinkedList<TransientNumber>();

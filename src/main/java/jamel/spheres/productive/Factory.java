@@ -3,12 +3,13 @@ package jamel.spheres.productive;
 import jamel.agents.firms.PolicyMaker;
 import jamel.markets.goods.Goods;
 import jamel.markets.labor.Labor;
-import jamel.utils.JamelRandom;
-import jamel.utils.Tendency;
 
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import utils.JamelRandom;
+import utils.Tendency;
 
 public class Factory implements Producing<Goods>, DemandsTendencyEstimator {
 

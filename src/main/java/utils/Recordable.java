@@ -1,5 +1,4 @@
-package jamel.utils;
-
+package utils;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -7,7 +6,6 @@ import java.util.List;
 
 import scheduling.cycle.Cycle;
 import scheduling.cycle.CycleElement;
-import economicCycle.scheduling.SimulationEvent;
 
 public class Recordable<V extends Number> extends CycleElement {
 
@@ -66,7 +64,8 @@ public class Recordable<V extends Number> extends CycleElement {
 		return records.getLast().doubleValue();
 	}
 
-	public static class PollRecordables extends SimulationEvent {
+	public static class PollRecordables extends
+			scheduling.schedule.SimulationEvent {
 		/**
 		 * Dumps the last recorded value, so as to guarantee they have a maximum
 		 * age of maxStepsPerRecord

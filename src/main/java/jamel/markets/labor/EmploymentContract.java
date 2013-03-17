@@ -28,7 +28,6 @@
 package jamel.markets.labor;
 
 import jamel.markets.Offering;
-import jamel.utils.JamelRandom;
 
 import org.joda.time.DateTime;
 import org.joda.time.Months;
@@ -37,6 +36,7 @@ import org.joda.time.ReadablePeriod;
 
 import scheduling.cycle.Cycle;
 import scheduling.cycle.ExpiringElement;
+import utils.JamelRandom;
 
 /**
  * Represents a job contract.

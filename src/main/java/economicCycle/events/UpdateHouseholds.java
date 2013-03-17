@@ -1,7 +1,7 @@
-package economicCycle.scheduling.events;
+package economicCycle.events;
 
 import jamel.World;
-import economicCycle.scheduling.SimulationEvent;
+import scheduling.schedule.SimulationEvent;
 
 public class UpdateHouseholds extends SimulationEvent{
 

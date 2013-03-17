@@ -2,8 +2,8 @@ package jamel.markets.labor;
 
 import jamel.markets.Offering;
 import jamel.spheres.monetary.BankAccount;
-import jamel.utils.JamelRandom;
 import scheduling.cycle.RegularUseElement;
+import utils.JamelRandom;
 import economicCycle.EconomicCycle;
 
 public class Worker extends RegularUseElement implements Offering<Labor> {

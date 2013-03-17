@@ -1,8 +1,8 @@
 package jamel.agents.firms;
 
+import utils.JamelRandom;
+import utils.Tendency;
 import jamel.spheres.productive.DemandsTendencyEstimator;
-import jamel.utils.JamelRandom;
-import jamel.utils.Tendency;
 
 public class PriceManager {
 	private static final long MINPRICE = 1;

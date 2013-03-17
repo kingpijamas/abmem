@@ -27,12 +27,12 @@
 
 package jamel.markets;
 
-import jamel.utils.StatisticalTransientNumber;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import scheduling.cycle.CycleElement;
+import utils.StatisticalTransientNumber;
 import economicCycle.EconomicCycle;
 
 /**

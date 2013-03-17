@@ -6,10 +6,11 @@ import jamel.markets.goods.GoodsMarket;
 import jamel.markets.labor.LaborMarket;
 import jamel.spheres.monetary.Bank;
 import jamel.spheres.monetary.exceptions.UnexpectedInvocationException;
-import jamel.utils.JamelRandom;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import utils.JamelRandom;
 
 import economicCycle.EconomicCycle;
 

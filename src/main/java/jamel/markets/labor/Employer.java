@@ -6,8 +6,6 @@ import jamel.markets.goods.Goods;
 import jamel.spheres.monetary.BankAccount;
 import jamel.spheres.productive.Factory;
 import jamel.spheres.productive.Producing;
-import jamel.utils.JamelRandom;
-import jamel.utils.Recordable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +13,8 @@ import java.util.PriorityQueue;
 
 import scheduling.cycle.Cycle;
 import scheduling.cycle.RegularUseElement;
+import utils.JamelRandom;
+import utils.Recordable;
 
 public class Employer extends RegularUseElement implements
 		Demanding<Labor> {

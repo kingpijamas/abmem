@@ -7,8 +7,8 @@ import jamel.markets.goods.Goods;
 import jamel.markets.labor.Worker;
 import jamel.spheres.monetary.Bank;
 import jamel.spheres.monetary.BankAccount;
-import jamel.utils.StatisticalTransientNumber;
 import scheduling.cycle.CycleElement;
+import utils.StatisticalTransientNumber;
 import economicCycle.EconomicCycle;
 
 public class Household extends CycleElement implements Consuming<Goods> {

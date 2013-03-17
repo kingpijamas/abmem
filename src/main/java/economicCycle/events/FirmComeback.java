@@ -1,8 +1,8 @@
-package economicCycle.scheduling.events;
+package economicCycle.events;
 
 import jamel.agents.firms.Firm;
 import jamel.agents.firms.ProductiveSector;
-import economicCycle.scheduling.SimulationEvent;
+import scheduling.schedule.SimulationEvent;
 
 public class FirmComeback extends SimulationEvent {
 

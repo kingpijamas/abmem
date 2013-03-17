@@ -2,9 +2,9 @@ package jamel.agents.firms;
 
 import jamel.agents.adaptation.AdaptiveObject;
 import jamel.agents.adaptation.AdaptiveVariable;
-import jamel.utils.JamelRandom;
 import scheduling.cycle.Cycle;
 import scheduling.cycle.CycleElement;
+import utils.JamelRandom;
 
 public class FirmPolicy extends CycleElement implements PolicyMaker,
 		AdaptiveObject {

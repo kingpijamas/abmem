@@ -1,4 +1,4 @@
-package jamel.utils;
+package utils;
 
 import scheduling.cycle.Cycle;
 import economicCycle.EconomicCycle;

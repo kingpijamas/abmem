@@ -1,7 +1,7 @@
-package economicCycle.scheduling.events;
+package economicCycle.events;
 
 import jamel.markets.Market;
-import economicCycle.scheduling.SimulationEvent;
+import scheduling.schedule.SimulationEvent;
 
 public class RunMarket extends SimulationEvent {
 	@SuppressWarnings("rawtypes")

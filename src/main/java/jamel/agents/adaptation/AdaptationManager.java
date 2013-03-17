@@ -1,9 +1,10 @@
 package jamel.agents.adaptation;
 
-import jamel.utils.JamelRandom;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import utils.JamelRandom;
 
 /**
  * Une classe pour le gestionnaire de l'évolution des agents.

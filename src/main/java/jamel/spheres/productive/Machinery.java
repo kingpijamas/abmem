@@ -12,10 +12,11 @@ package jamel.spheres.productive;
 
 import jamel.markets.goods.Goods;
 import jamel.markets.labor.Labor;
-import jamel.utils.Range;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import utils.Range;
 
 /**
  * Represents a factory.

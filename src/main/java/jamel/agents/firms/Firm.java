@@ -16,7 +16,7 @@ import java.util.List;
 import org.joda.time.Years;
 
 import scheduling.cycle.CycleElement;
-import economicCycle.scheduling.events.FirmComeback;
+import economicCycle.events.FirmComeback;
 
 public class Firm extends CycleElement implements Offering<Goods>, Borrower {
 	// TODO: when a Firm dies, it should be either removed from

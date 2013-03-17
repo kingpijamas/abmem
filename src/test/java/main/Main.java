@@ -4,11 +4,12 @@ import jamel.World;
 import jamel.agents.firms.ProductiveSector;
 import jamel.agents.households.Household;
 import jamel.spheres.monetary.Bank;
-import jamel.utils.Range;
 
 import org.joda.time.DateTime;
 import org.joda.time.Months;
 import org.joda.time.Period;
+
+import utils.Range;
 
 import economicCycle.EconomicCycle;
 

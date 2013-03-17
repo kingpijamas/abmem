@@ -28,23 +28,23 @@
 package economicCycle;
 
 import jamel.World;
-import jamel.utils.Recordable;
-import jamel.utils.TransientNumber;
 
 import org.joda.time.DateTime;
 import org.joda.time.Days;
 import org.joda.time.Period;
 
 import scheduling.cycle.Cycle;
-import economicCycle.scheduling.events.CreditCheques;
-import economicCycle.scheduling.events.PayBankDividend;
-import economicCycle.scheduling.events.PayFirmDividends;
-import economicCycle.scheduling.events.RunDebtRecovery;
-import economicCycle.scheduling.events.RunMarket;
-import economicCycle.scheduling.events.RunProduction;
-import economicCycle.scheduling.events.UpdateBank;
-import economicCycle.scheduling.events.UpdateHouseholds;
-import economicCycle.scheduling.events.UpdateProductiveSector;
+import utils.Recordable;
+import utils.TransientNumber;
+import economicCycle.events.CreditCheques;
+import economicCycle.events.PayBankDividend;
+import economicCycle.events.PayFirmDividends;
+import economicCycle.events.RunDebtRecovery;
+import economicCycle.events.RunMarket;
+import economicCycle.events.RunProduction;
+import economicCycle.events.UpdateBank;
+import economicCycle.events.UpdateHouseholds;
+import economicCycle.events.UpdateProductiveSector;
 
 /**
  * Represents the macro-economic circuit.

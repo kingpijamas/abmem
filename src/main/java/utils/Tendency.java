@@ -1,4 +1,4 @@
-package jamel.utils;
+package utils;
 
 public class Tendency {
 	private static final int INCREASING = 1;
