@@ -33,9 +33,10 @@ public class Household extends CycleElement implements Consuming<Goods> {
 		World.getInstance().getLaborMarket().add(worker);
 	}
 
-	public void update() {// VALIDATED
-							// comes from the original
-							// ConsumptionManager.consume()
+	/*
+	 * VALIDATED: comes from the original ConsumptionManager.consume()
+	 */
+	public void update() {
 		long yearlyIncome = worker.getYearlyIncome();
 		long savingsTarget = (long) (yearlyIncome * savingPropensity);
 		long averageIncome = yearlyIncome / 12; // TODO: check!
