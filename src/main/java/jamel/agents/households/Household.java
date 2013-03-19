@@ -8,7 +8,6 @@ import jamel.markets.labor.Worker;
 import jamel.spheres.monetary.Bank;
 import jamel.spheres.monetary.BankAccount;
 import scheduling.cycle.CycleElement;
-import utils.StatisticalTransientNumber;
 import economicCycle.EconomicCycle;
 
 public class Household extends CycleElement implements Consuming<Goods> {
@@ -19,17 +18,14 @@ public class Household extends CycleElement implements Consuming<Goods> {
 	private BankAccount account;
 	private Worker worker;
 
-	private long consumptionTarget;
+	private long consumptionBudget;
 	private Offering<Goods> preferredProvider;
-
-	private StatisticalTransientNumber income;// TODO
 
 	public Household(EconomicCycle circuit, Bank bank, double savingPropensity) {
 		super(circuit);
 		this.savingPropensity = savingPropensity;
 		this.account = bank.openAccount();
 		this.worker = new Worker(circuit, account);
-		this.income = new StatisticalTransientNumber(circuit, 1);
 	}
 
 	public void enterMarkets() {
@@ -37,37 +33,40 @@ public class Household extends CycleElement implements Consuming<Goods> {
 		World.getInstance().getLaborMarket().add(worker);
 	}
 
-	public void update() {
-		long savingsTarget = (long) (worker.getWage() * savingPropensity);
-		income.add(worker.getWage());
-		long averageIncome = World.getInstance().getLaborMarket()
-				.getAverageValue();
+	public void update() {// VALIDATED
+							// comes from the original
+							// ConsumptionManager.consume()
+		long yearlyIncome = worker.getYearlyIncome();
+		long savingsTarget = (long) (yearlyIncome * savingPropensity);
+		long averageIncome = yearlyIncome / 12; // TODO: check!
 		long savings = account.getAvailableAmount() - averageIncome;
+		long consumptionTarget;
 		if (savings < savingsTarget) {
 			consumptionTarget = (long) ((1. - savingPropensity) * averageIncome);
 		} else {
 			consumptionTarget = averageIncome + (savings - savingsTarget) / 2;
 		}
+		consumptionBudget = Math.min(account.getAvailableAmount(),
+				consumptionTarget);
+	}
+
+	public long getConsumptionBudget() {
+		return consumptionBudget;
 	}
 
 	public void getSupplied(Offering<Goods> offerer) {
 		preferredProvider = offerer;
-		offerer.supply(account, getConsumptionBudget()).consumeAll();
+		Goods bought = offerer.supply(account, consumptionBudget);
+		consumptionBudget -= bought.getValue();
+		bought.consumeAll();
 	}
 
 	public Offering<Goods> getPreferredProvider() {
 		return preferredProvider;
 	}
 
-	public int getMaxMarketCrawlingIntents() {
+	public int getMaxMarketCrawlingIntents() {// XXX
 		return MAX_MARKET_CRAWLING_INTENTS;
-	}
-
-	public long getConsumptionBudget() {
-		if (Math.min(account.getAvailableAmount(), consumptionTarget) < 0) {
-			throw new IllegalArgumentException("ACA");
-		}
-		return Math.min(account.getAvailableAmount(), consumptionTarget);
 	}
 
 	public BankAccount getBankAccount() {
@@ -79,10 +78,10 @@ public class Household extends CycleElement implements Consuming<Goods> {
 		String ans = super.toString();
 		ans += "\nAccount: " + account.getAvailableAmount();
 		ans += "\nUnavailable: " + account.getUnavailableAmount();
-		ans += "\nConsumption Target: " + consumptionTarget;
+		ans += "\nConsumption Budget: " + consumptionBudget;
 		ans += "\nPreferredProvider:\n\t" + preferredProvider;
 		return ans;
 	}
-	
-	//TODO: validate all the receiveDividend() methods
+
+	// TODO: validate all the receiveDividend() methods
 }

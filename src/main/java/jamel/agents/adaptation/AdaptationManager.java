@@ -1,6 +1,5 @@
 package jamel.agents.adaptation;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +13,8 @@ import utils.JamelRandom;
  * 
  */
 public class AdaptationManager<A extends AdaptiveObject> {
+	private static final int DEFAULT_TOURNAMENT_SIZE = 10;
+
 	private int valuableRate;
 	private int frequency;
 	private final int tournamentSize;
@@ -30,13 +31,16 @@ public class AdaptationManager<A extends AdaptiveObject> {
 
 	public AdaptationManager(double audacity, int valuableRate, int frequency,
 			int tournamentSize) {
-		if (frequency <= 0) {
-			throw new IllegalArgumentException("Invalid frequency, must be >0");
+		if (frequency < 0) {
+			throw new IllegalArgumentException("Invalid frequency, must be >=0");
 		}
-		this.valuableRate = valuableRate;
 		this.frequency = frequency;
 		this.tournamentSize = tournamentSize;
 		this.audacity = audacity;
+	}
+
+	public AdaptationManager(double audacity, int valuableRate, int frequency) {
+		this(audacity, valuableRate, frequency, DEFAULT_TOURNAMENT_SIZE);
 	}
 
 	/**
@@ -126,7 +130,8 @@ public class AdaptationManager<A extends AdaptiveObject> {
 		}
 		List<A> ans = new ArrayList<A>(quantity);
 		while (ans.size() < quantity) {
-			A aux = population.get(Math.abs(new JamelRandom().nextInt()) % quantity);
+			A aux = population.get(Math.abs(new JamelRandom().nextInt())
+					% quantity);
 			if (!ans.contains(aux)) {
 				ans.add(aux);
 			}

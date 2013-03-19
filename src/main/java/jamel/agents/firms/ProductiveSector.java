@@ -52,9 +52,6 @@ import economicCycle.EconomicCycle;
  */
 public class ProductiveSector extends CycleElement {
 	private static final Range VARIABILITYINTERVAL = new Range(0, 1);// TODO:
-	private static final int DEFAULT_TOURNAMENT_SIZE = 15;// TODO: magic number
-															// gracefully
-															// provided by jp
 
 	private final List<Firm> firms;
 
@@ -86,8 +83,9 @@ public class ProductiveSector extends CycleElement {
 	 * @param goodsMarket
 	 *            the goods market.
 	 */
-	public ProductiveSector(EconomicCycle circuit, int frequency, double audacity,
-			double wageUpwardFlexibility, double wageDownwardFlexibility) {
+	public ProductiveSector(EconomicCycle circuit, int frequency,
+			double audacity, double wageUpwardFlexibility,
+			double wageDownwardFlexibility) {
 		super(circuit);
 		this.firms = new LinkedList<Firm>();
 		this.wageUpwardFlexibility = wageUpwardFlexibility;
@@ -97,7 +95,7 @@ public class ProductiveSector extends CycleElement {
 		 * Original price=0
 		 */
 		this.adaptationManager = new AdaptationManager<FirmPolicy>(audacity,
-				1/* TODO */, frequency, DEFAULT_TOURNAMENT_SIZE);
+				1/* TODO */, frequency);
 		this.totalDividend = new StatisticalTransientNumber(getCycle(), 0.0, 1,
 				0);
 	}
@@ -236,7 +234,7 @@ public class ProductiveSector extends CycleElement {
 	}
 
 	public void enterMarkets() {
-		for(Firm f:firms){
+		for (Firm f : firms) {
 			f.enterMarkets();
 		}
 	}

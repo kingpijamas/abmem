@@ -58,52 +58,22 @@ public class EconomicCycle extends Cycle {
 	}
 
 	public void init(boolean testing) {
-		if (!testing) {
-			addEvent(new Recordable.PollRecordables(), getStart(), Days.ONE);
-			addEvent(new TransientNumber.RefreshTransients(), getStart(),
-					Days.ONE);
-			addEvent(new PayBankDividend(), getStart().plus(getStep()),
-					Days.ONE);
-			addEvent(new PayFirmDividends(), getStart().plus(getStep()),
-					Days.ONE);// this
-			// is
-			// done
-			// to
-			// let
-			// firms
-			// not
-			// pay
-			// their
-			// first
-			// dividend,
-			// since
-			// dividends
-			// are
-			// payed
-			// before
-			// actual
-			// money
-			// is
-			// obtained
-			// in
-			// this
-			// model
-			// (and
-			// thus,
-			// it
-			// crashes)
-			addEvent(new RunMarket(World.getInstance().getLaborMarket()),
-					getStart(), Days.ONE);
-			addEvent(new RunProduction(), getStart(), Days.ONE);
-			addEvent(new RunMarket(World.getInstance().getGoodsMarket()),
-					getStart(), Days.ONE);
-			addEvent(new UpdateHouseholds(), getStart(), Days.ONE);
-			addEvent(new RunDebtRecovery(), getStart(), Days.ONE);
-			addEvent(new UpdateProductiveSector(), getStart(), Days.ONE);
-			addEvent(new UpdateBank(), getStart(), Days.ONE);
-			addEvent(new CreditCheques(), getStart(), Days.ONE);// TODO: dunno
-																// where this
-																// goes exactly
-		}
+		addEvent(new Recordable.PollRecordables(), getStart(), Days.ONE);
+		addEvent(new TransientNumber.RefreshTransients(), getStart(), Days.ONE);
+		addEvent(new PayBankDividend(), getStart(), Days.ONE);
+		addEvent(new PayFirmDividends(), getStart(), Days.ONE);
+		addEvent(new RunMarket(World.getInstance().getLaborMarket()),
+				getStart(), Days.ONE);
+		addEvent(new RunProduction(), getStart(), Days.ONE);// TODO: not clear
+															// if this goes here
+		addEvent(new RunMarket(World.getInstance().getGoodsMarket()),
+				getStart(), Days.ONE);
+		addEvent(new UpdateHouseholds(), getStart(), Days.ONE);
+		addEvent(new RunDebtRecovery(), getStart(), Days.ONE);
+		addEvent(new UpdateProductiveSector(), getStart(), Days.ONE);
+		addEvent(new UpdateBank(), getStart(), Days.ONE);
+		addEvent(new CreditCheques(), getStart(), Days.ONE);// TODO: dunno
+															// where this
+															// goes exactly
 	}
 }

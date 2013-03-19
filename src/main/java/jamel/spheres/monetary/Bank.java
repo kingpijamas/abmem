@@ -54,7 +54,7 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 	private final Set<BankAccount> accounts;
 	private final Set<BorrowerBankAccount> borrowerAccounts;
 
-	private boolean accommodating = false;
+	private boolean accommodating = true;
 	private double monthlyInterestRate; // FIXME: it should be done on a per
 										// period basis
 

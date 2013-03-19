@@ -4,6 +4,7 @@ import jamel.markets.Offering;
 import jamel.spheres.monetary.BankAccount;
 import scheduling.cycle.RegularUseElement;
 import utils.JamelRandom;
+import utils.StatisticalTransientNumber;
 import economicCycle.EconomicCycle;
 
 public class Worker extends RegularUseElement implements Offering<Labor> {
@@ -11,6 +12,7 @@ public class Worker extends RegularUseElement implements Offering<Labor> {
 	private static final double DEFAULT_RESISTANCE = 1;
 	private static final double DEFAULT_FLEXIBILITY = 1;
 
+	private StatisticalTransientNumber yearlyIncome;
 	public EmploymentContract contract;// FIXME
 
 	private EmploymentStatus status;
@@ -28,6 +30,11 @@ public class Worker extends RegularUseElement implements Offering<Labor> {
 		this.periodsUnemployed = 0;
 		this.resistance = DEFAULT_RESISTANCE;
 		this.flexibility = DEFAULT_FLEXIBILITY;
+		this.yearlyIncome = new StatisticalTransientNumber(circuit, 0, 1
+		/*
+		 * TODO: check ! it is 1 because it is the amount of periods it takes
+		 * for 'this' to get its wage paid
+		 */, 1); // TODO : check!
 	}
 
 	public boolean isUnemployed() {
@@ -100,6 +107,10 @@ public class Worker extends RegularUseElement implements Offering<Labor> {
 		return status;
 	}
 
+	public long getYearlyIncome() {
+		return (long) yearlyIncome.getValue();
+	}
+
 	public Labor supply(BankAccount employer, long amount) {// XXX why is
 		// 'amount'
 		// even necessary?
@@ -107,6 +118,7 @@ public class Worker extends RegularUseElement implements Offering<Labor> {
 		// with the interface)
 		if (amount == contract.getWage()) {// XXX
 			employer.transfer(account, contract.getWage());
+			yearlyIncome.add(getWage());
 			use();
 			return new Labor(contract.getWage());
 		}
