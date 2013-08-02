@@ -15,7 +15,6 @@ import scheduling.schedule.SimulationEvent;
 import economicCycle.EconomicCycle;
 
 public class MachineTest {
-
 	private static final int PRODUCTIVITY = 1;
 	private static final int PRODUCTIONTIME = 2;
 

@@ -11,7 +11,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 import utils.JamelRandom;
-
 import economicCycle.EconomicCycle;
 
 public class World {

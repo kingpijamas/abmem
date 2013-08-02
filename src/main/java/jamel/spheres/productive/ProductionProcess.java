@@ -31,7 +31,6 @@ import jamel.markets.goods.Goods;
 import jamel.markets.labor.Labor;
 import scheduling.cycle.Cycle;
 import scheduling.cycle.RegularUseElement;
-import economicCycle.EconomicCycle;
 
 /**
  * Represents a production process.
