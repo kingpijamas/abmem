@@ -27,7 +27,6 @@
 
 package jamel.spheres.monetary;
 
-import jamel.World;
 import jamel.spheres.monetary.exceptions.SimulationFailure;
 
 import java.util.HashSet;
@@ -48,11 +47,12 @@ import economicCycle.EconomicCycle;
 public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 										// (and inner classes) from Jamel
 
-	private static final double DEFAULT_CAPITAL_RATIO = 0.25;// TODO: magic number
+	private static final double DEFAULT_CAPITAL_RATIO = 0.25;// TODO: magic
+																// number
 
 	private BankAccount owner;
-	private final Set<BankAccount> accounts;
-	private final Set<BorrowerBankAccount> borrowerAccounts;
+	private final Set<BankAccount> accounts = new HashSet<BankAccount>();
+	private final Set<BorrowerBankAccount> borrowerAccounts = new HashSet<BorrowerBankAccount>();
 
 	private boolean accommodating = true;
 	private double monthlyInterestRate; // FIXME: it should be done on a per
@@ -65,10 +65,9 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 	/**
 	 * Creates a new bank.
 	 */
-	public Bank(EconomicCycle circuit, double annualInterestRate, double capitalRatio) {
+	public Bank(EconomicCycle circuit, double annualInterestRate,
+			double capitalRatio) {
 		super(circuit);
-		this.accounts = new HashSet<BankAccount>();
-		this.borrowerAccounts = new HashSet<BorrowerBankAccount>();
 		setMonthlyInterestRate(annualInterestRate);
 	}
 
@@ -182,13 +181,21 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 		}
 	}
 
+	long getAssets() {
+		return debts;
+	}
+
+	long getLiabilities() {
+		return deposits;
+	}
+
 	/**
 	 * Returns the bank capital adequacy.
 	 * 
 	 * @return a long that represents the bank capital.
 	 */
-	private long getCapitalAdequacy() {// VALIDATED
-		return debts - deposits;
+	long getCapitalAdequacy() {// VALIDATED
+		return getAssets() - getLiabilities();
 	}
 
 	private long calculateDividend() {// VALIDATED
@@ -209,10 +216,12 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 		return acc;
 	}
 
-	public void findOwner() {// VALIDATED
-		// TODO: What if the owner also owns, say, several companies, and he
-		// ends up failing?
-		owner = World.getInstance().getRandomHousehold().getBankAccount();
+	public void setOwner(BankAccount owner) {// VALIDATED
+		/*
+		 * TODO: What if the owner also owns, say, several companies, and he
+		 * ends up failing?
+		 */
+		this.owner = owner;
 	}
 
 	@Override

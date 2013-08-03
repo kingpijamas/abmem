@@ -14,7 +14,6 @@ import utils.JamelRandom;
 import economicCycle.EconomicCycle;
 
 public class World {
-
 	private static World instance;
 	private Bank bank;
 	private EconomicCycle circuit;
@@ -33,8 +32,8 @@ public class World {
 		this.households = new LinkedList<Household>();
 	}
 
-	public static void init(EconomicCycle circuit, ProductiveSector firms, Bank bank)
-			throws CloneNotSupportedException {
+	public static void init(EconomicCycle circuit, ProductiveSector firms,
+			Bank bank) throws CloneNotSupportedException {
 		if (instance != null) {
 			throw new UnexpectedInvocationException();
 		}
@@ -45,12 +44,13 @@ public class World {
 		return instance;
 	}
 
-	public void init() {// FIXME
+	public void init(boolean testing) {// FIXME
 		for (Household h : households) {
 			h.enterMarkets();
 		}
 		firms.enterMarkets();
-		bank.findOwner();
+		bank.setOwner(getRandomHousehold().getBankAccount());
+		getCycle().init(testing);
 	}
 
 	public void addHousehold(Household h) {
