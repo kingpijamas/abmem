@@ -34,6 +34,13 @@ public class Main {
 	private static final int MACHINES_PER_FIRM = 15;
 
 	public static void main(String[] args) throws CloneNotSupportedException {
+		World world = initWorld();
+		while (!world.getCycle().ended()) {
+			world.getCycle().doPeriod();
+		}
+	}
+
+	public static World initWorld() throws CloneNotSupportedException {
 		DateTime end = SIMULATION_START.plus(Months.THREE);
 		EconomicCycle cycle = new EconomicCycle(SIMULATION_START, end, DAY);
 		Bank bank = new Bank(cycle, ANNUAL_INTEREST_RATE, CAPITAL_RATIO);
@@ -47,8 +54,6 @@ public class Main {
 		firms.newFirms(QUANTITY_OF_FIRMS, PRODUCTION_TIME_IN_PERIODS,
 				DEFAULT_PRODUCTIVITY, MACHINES_PER_FIRM);
 		world.init(true);
-		while (!cycle.ended()) {
-			world.getCycle().doPeriod();
-		}
+		return world;
 	}
 }
