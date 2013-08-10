@@ -1,6 +1,5 @@
 package jamel.agents.firms;
 
-import jamel.World;
 import jamel.markets.Offering;
 import jamel.markets.goods.Goods;
 import jamel.markets.labor.Employer;
@@ -16,7 +15,7 @@ import java.util.List;
 import org.joda.time.Years;
 
 import scheduling.cycle.CycleElement;
-import economicCycle.events.FirmComeback;
+import economy.events.FirmComeback;
 
 public class Firm extends CycleElement implements Offering<Goods>, Borrower {
 	// TODO: when a Firm dies, it should be either removed from
@@ -32,7 +31,7 @@ public class Firm extends CycleElement implements Offering<Goods>, Borrower {
 
 	public Firm(ProductiveSector sector, Wage offeredWage,
 			List<Machine> machines, long startingPrice) {
-		this(sector, World.getInstance().getRandomHousehold().getBankAccount(),
+		this(sector, sector.getEconomy().getRandomHousehold().getBankAccount(),
 				offeredWage, machines, startingPrice);
 	}
 
@@ -43,7 +42,7 @@ public class Firm extends CycleElement implements Offering<Goods>, Borrower {
 		this.sector = sector;
 		this.policy = new FirmPolicy(sector.getCycle(), this);
 		this.production = new Factory(policy, machines);
-		this.account = World.getInstance().getBank().openBorrowerAccount(this);
+		this.account = sector.getEconomy().getBank().openAccount(this);
 		this.workforce = new Employer(sector.getCycle(), production, account,
 				offeredWage);
 		this.priceManager = new PriceManager(policy, production, startingPrice);
@@ -133,7 +132,8 @@ public class Firm extends CycleElement implements Offering<Goods>, Borrower {
 		return (retainedEarningsEffective - retainedEarningsTarget) / 2;
 	}
 
-	public void declareBankruptcy() {//TODO: verify if this is equal to FirmsSector.failure(etc etc) in Jamel
+	public void declareBankruptcy() {// TODO: verify if this is equal to
+										// FirmsSector.failure(etc etc) in Jamel
 		sector.getLaborMarket().remove(workforce);
 		sector.getGoodsMarket().remove(this);
 		getCycle().addEvent(new FirmComeback(sector, this),

@@ -5,7 +5,7 @@ import jamel.spheres.monetary.BankAccount;
 import scheduling.cycle.RegularUseElement;
 import utils.JamelRandom;
 import utils.StatisticalTransientNumber;
-import economicCycle.EconomicCycle;
+import economy.EconomicCycle;
 
 public class Worker extends RegularUseElement implements Offering<Labor> {
 	private static final int NOT_UNEMPLOYED = -1;

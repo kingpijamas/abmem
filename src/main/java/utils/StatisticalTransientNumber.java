@@ -1,16 +1,27 @@
 package utils;
 
 import scheduling.cycle.Cycle;
-import economicCycle.EconomicCycle;
+import economy.EconomicCycle;
 
 public class StatisticalTransientNumber extends TransientNumber {
 
-	private int i;
+	private int i = 0;
 	private int pollSize;
-	private double buffer;
+	private double buffer = 0;
 
-	public StatisticalTransientNumber(EconomicCycle circuit, int pollSize) {
-		super(circuit);
+	public StatisticalTransientNumber(int pollSize) {
+		super();
+		this.pollSize = pollSize;
+	}
+
+	public StatisticalTransientNumber(EconomicCycle cycle, int pollSize) {
+		super(cycle);
+		this.pollSize = pollSize;
+	}
+
+	public StatisticalTransientNumber(double baseValue, int lifetimeInPeriods,
+			int pollSize) {
+		super(baseValue, lifetimeInPeriods);
 		this.pollSize = pollSize;
 		this.buffer = 0;
 		this.i = 0;
@@ -18,10 +29,8 @@ public class StatisticalTransientNumber extends TransientNumber {
 
 	public StatisticalTransientNumber(Cycle cycle, double baseValue,
 			int lifetimeInPeriods, int pollSize) {
-		super(cycle, baseValue, lifetimeInPeriods);
-		this.pollSize = pollSize;
-		this.buffer = 0;
-		this.i = 0;
+		this(baseValue, lifetimeInPeriods, pollSize);
+		init(cycle);
 	}
 
 	@Override

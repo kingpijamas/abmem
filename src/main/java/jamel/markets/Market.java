@@ -33,7 +33,7 @@ import java.util.Set;
 
 import scheduling.cycle.CycleElement;
 import utils.StatisticalTransientNumber;
-import economicCycle.EconomicCycle;
+import economy.EconomicCycle;
 
 /**
  * A base class providing common services for markets.

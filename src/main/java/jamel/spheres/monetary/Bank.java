@@ -27,7 +27,7 @@
 
 package jamel.spheres.monetary;
 
-import jamel.spheres.monetary.exceptions.SimulationFailure;
+import jamel.spheres.monetary.exceptions.BankFailureException;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -35,7 +35,7 @@ import java.util.List;
 import java.util.Set;
 
 import scheduling.cycle.CycleElement;
-import economicCycle.EconomicCycle;
+import economy.Economy;
 
 /**
  * Represents the single representative bank.
@@ -46,29 +46,30 @@ import economicCycle.EconomicCycle;
  */
 public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 										// (and inner classes) from Jamel
-
-	private static final double DEFAULT_CAPITAL_RATIO = 0.25;// TODO: magic
-																// number
-
 	private BankAccount owner;
 	private final Set<BankAccount> accounts = new HashSet<BankAccount>();
 	private final Set<BorrowerBankAccount> borrowerAccounts = new HashSet<BorrowerBankAccount>();
 
-	private boolean accommodating = true;
+	private boolean accommodating;
 	private double monthlyInterestRate; // FIXME: it should be done on a per
 										// period basis
 
-	private double capitalRatio = DEFAULT_CAPITAL_RATIO;
+	private double capitalRatio;
+	private double dividendRedistributionRatio;
+
 	private long debts = 0;
 	private long deposits = 0;
 
 	/**
 	 * Creates a new bank.
 	 */
-	public Bank(EconomicCycle circuit, double annualInterestRate,
-			double capitalRatio) {
-		super(circuit);
+	public Bank(Economy economy, boolean accomodating,
+			double annualInterestRate, double capitalRatio,
+			double dividendRedistributionRatio) {
+		super(economy.getCycle());
 		setMonthlyInterestRate(annualInterestRate);
+		this.capitalRatio = capitalRatio;
+		this.dividendRedistributionRatio = dividendRedistributionRatio;
 	}
 
 	void lend(BorrowerBankAccount account, long principal) {// IMPORTANT: YES,
@@ -140,8 +141,8 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 		}
 		// Checks the level of capital adequacy. If negative, ends the
 		// simulation.
-		if (getCapitalAdequacy() < 0) {
-			throw new SimulationFailure("Bank crashed");
+		if (getCapital() < 0) {
+			throw new BankFailureException("Bank crashed");
 		}
 	}
 
@@ -173,12 +174,57 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 		this.monthlyInterestRate = Math.pow(1 + annualRate, 1.0 / 12) - 1;
 	}
 
+	/**
+	 * Returns the ratio of the Bank's dividend that will be redistributed (and
+	 * thus not kept by the Bank)
+	 */
+	double getDividendRedistributionRatio() {
+		return dividendRedistributionRatio;
+	}
+
+	/**
+	 * Calculates the dividend for a period. This depends on whether current
+	 * capital is higher or lower than the capital target (which is proportional
+	 * to the capitalRatio and the assets).
+	 * 
+	 * If it is higher, the dividend is the surplus capital times the
+	 * dividendRedistributionRatio. If not, the dividend is 0.
+	 */
+	long calculateDividend() {// VALIDATED
+		long targetCapital = (long) (capitalRatio * getAssets());
+		if (getCapital() > targetCapital) {
+			return (long) (dividendRedistributionRatio * (getCapital() - targetCapital));
+		}
+		return 0;
+	}
+
 	public void payDividend() {// VALIDATED
 		long dividend = calculateDividend();
 		if (dividend > 0) {// TODO: bank profits? where are they? were they
 							// useful?
 			owner.credit(dividend);
 		}
+	}
+
+	public BankAccount openAccount() {// VALIDATED
+		BankAccount acc = new BankAccount(getCycle(), this);
+		accounts.add(acc);
+		return acc;
+	}
+
+	public BorrowerBankAccount openAccount(Borrower holder) {// VALIDATED
+		BorrowerBankAccount acc = new BorrowerBankAccount(getCycle(), this,
+				holder);
+		borrowerAccounts.add(acc);
+		return acc;
+	}
+
+	/*
+	 * TODO: What if the owner also owns, say, several companies, and he ends up
+	 * failing?
+	 */
+	public void setOwner(BankAccount owner) {// VALIDATED
+		this.owner = owner;
 	}
 
 	long getAssets() {
@@ -194,34 +240,16 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 	 * 
 	 * @return a long that represents the bank capital.
 	 */
-	long getCapitalAdequacy() {// VALIDATED
+	long getCapital() {// VALIDATED
 		return getAssets() - getLiabilities();
 	}
 
-	private long calculateDividend() {// VALIDATED
-		return (getCapitalAdequacy() - Math.min((long) (debts * capitalRatio),
-				getCapitalAdequacy())) / 2;
-	}
-
-	public BankAccount openAccount() {// VALIDATED
-		BankAccount acc = new BankAccount(getCycle(), this);
-		accounts.add(acc);
-		return acc;
-	}
-
-	public BorrowerBankAccount openBorrowerAccount(Borrower holder) {// VALIDATED
-		BorrowerBankAccount acc = new BorrowerBankAccount(getCycle(), this,
-				holder);
-		borrowerAccounts.add(acc);
-		return acc;
-	}
-
-	public void setOwner(BankAccount owner) {// VALIDATED
-		/*
-		 * TODO: What if the owner also owns, say, several companies, and he
-		 * ends up failing?
-		 */
-		this.owner = owner;
+	/**
+	 * Returns the minimum ratio of capital the Bank expects to keep for itself
+	 * on a given period
+	 */
+	double getCapitalRatio() {
+		return capitalRatio;
 	}
 
 	@Override
@@ -233,8 +261,7 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 		ans += "\nDeposits: " + deposits;
 		ans += "\nDebts: " + debts + "(doubtful:" + getDoubtfulDebtTotal()
 				+ ")";
-		ans += "\nCapital adequacy: " + getCapitalAdequacy();
+		ans += "\nCapital adequacy: " + getCapital();
 		return ans;
 	}
-
 }

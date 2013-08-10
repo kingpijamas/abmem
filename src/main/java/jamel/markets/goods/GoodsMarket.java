@@ -33,7 +33,7 @@ import jamel.markets.Offering;
 
 import java.util.Iterator;
 
-import economicCycle.EconomicCycle;
+import economy.EconomicCycle;
 
 /**
  * Represents a goods market.

@@ -1,52 +1,46 @@
-package jamel;
+package economy;
 
 import jamel.agents.firms.ProductiveSector;
 import jamel.agents.households.Household;
 import jamel.markets.goods.GoodsMarket;
 import jamel.markets.labor.LaborMarket;
 import jamel.spheres.monetary.Bank;
-import jamel.spheres.monetary.exceptions.UnexpectedInvocationException;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import utils.JamelRandom;
-import economicCycle.EconomicCycle;
+import org.joda.time.DateTime;
+import org.joda.time.Period;
 
-public class World {
-	private static World instance;
+import utils.JamelRandom;
+
+public class Economy {
+	private EconomicCycle cycle;
 	private Bank bank;
-	private EconomicCycle circuit;
-	private List<Household> households;
+	private List<Household> households = new LinkedList<Household>();
 	private ProductiveSector firms;
 	private LaborMarket laborMarket;
 	private GoodsMarket goodsMarket;
 
-	private World(EconomicCycle circuit, ProductiveSector firms, Bank bank)
+	public Economy(DateTime start, DateTime end, Period step)
 			throws CloneNotSupportedException {
-		this.circuit = circuit;
-		this.laborMarket = new LaborMarket(circuit);
-		this.goodsMarket = new GoodsMarket(circuit);
+		this.cycle = new EconomicCycle(this, start, end, step);
+	}
+
+	public void set(Bank bank) {
 		this.bank = bank;
+	}
+
+	public void set(ProductiveSector firms) {
 		this.firms = firms;
-		this.households = new LinkedList<Household>();
-	}
-
-	public static void init(EconomicCycle circuit, ProductiveSector firms,
-			Bank bank) throws CloneNotSupportedException {
-		if (instance != null) {
-			throw new UnexpectedInvocationException();
-		}
-		instance = new World(circuit, firms, bank);
-	}
-
-	public static World getInstance() {
-		return instance;
 	}
 
 	public void init(boolean testing) {// FIXME
+		this.laborMarket = new LaborMarket(cycle);
+		this.goodsMarket = new GoodsMarket(cycle);
+
 		for (Household h : households) {
-			h.enterMarkets();
+			h.init();
 		}
 		firms.enterMarkets();
 		bank.setOwner(getRandomHousehold().getBankAccount());
@@ -61,8 +55,8 @@ public class World {
 		return bank;
 	}
 
-	public EconomicCycle getCycle() {
-		return circuit;
+	public EconomicCycle getCycle() {// XXX
+		return cycle;
 	}
 
 	public Household getRandomHousehold() {

@@ -5,7 +5,7 @@ import jamel.markets.Offering;
 
 import java.util.List;
 
-import economicCycle.EconomicCycle;
+import economy.EconomicCycle;
 
 public class LaborMarket extends Market<Labor, Employer> {
 

@@ -27,7 +27,6 @@
 
 package jamel.agents.firms;
 
-import jamel.World;
 import jamel.agents.adaptation.AdaptationManager;
 import jamel.markets.goods.GoodsMarket;
 import jamel.markets.labor.LaborMarket;
@@ -41,7 +40,7 @@ import java.util.List;
 import scheduling.cycle.CycleElement;
 import utils.Range;
 import utils.StatisticalTransientNumber;
-import economicCycle.EconomicCycle;
+import economy.Economy;
 
 /**
  * Represents the firms sector.
@@ -53,7 +52,8 @@ import economicCycle.EconomicCycle;
 public class ProductiveSector extends CycleElement {
 	private static final Range VARIABILITYINTERVAL = new Range(0, 1);// TODO:
 
-	private final List<Firm> firms;
+	private final Economy economy;
+	private final List<Firm> firms = new LinkedList<Firm>();
 
 	private double wageUpwardFlexibility;
 	private double wageDownwardFlexibility;
@@ -83,11 +83,10 @@ public class ProductiveSector extends CycleElement {
 	 * @param goodsMarket
 	 *            the goods market.
 	 */
-	public ProductiveSector(EconomicCycle circuit, int frequency,
-			double audacity, double wageUpwardFlexibility,
-			double wageDownwardFlexibility) {
-		super(circuit);
-		this.firms = new LinkedList<Firm>();
+	public ProductiveSector(Economy economy, int frequency, double audacity,
+			double wageUpwardFlexibility, double wageDownwardFlexibility) {
+		super(economy.getCycle());
+		this.economy = economy;
 		this.wageUpwardFlexibility = wageUpwardFlexibility;
 		this.wageDownwardFlexibility = wageDownwardFlexibility;
 		/*
@@ -96,12 +95,15 @@ public class ProductiveSector extends CycleElement {
 		 */
 		this.adaptationManager = new AdaptationManager<FirmPolicy>(audacity,
 				1/* TODO */, frequency);
-		this.totalDividend = new StatisticalTransientNumber(getCycle(), 0.0, 1,
-				0);
+		this.totalDividend = new StatisticalTransientNumber(0.0, 1, 0);
+	}
+
+	public void init() {
+		totalDividend.init(economy.getCycle());
 	}
 
 	public LaborMarket getLaborMarket() {
-		return World.getInstance().getLaborMarket();
+		return economy.getLaborMarket();
 	}
 
 	public void newFirms(int quantityOfFirms, int productionTimeInPeriods,
@@ -214,7 +216,7 @@ public class ProductiveSector extends CycleElement {
 	}
 
 	public GoodsMarket getGoodsMarket() {
-		return World.getInstance().getGoodsMarket();
+		return economy.getGoodsMarket();
 	}
 
 	public Range getFirmBehaviorVariabilityInterval() {
@@ -237,5 +239,9 @@ public class ProductiveSector extends CycleElement {
 		for (Firm f : firms) {
 			f.enterMarkets();
 		}
+	}
+
+	public Economy getEconomy() {
+		return economy;
 	}
 }

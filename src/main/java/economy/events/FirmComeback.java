@@ -1,4 +1,4 @@
-package economicCycle.events;
+package economy.events;
 
 import jamel.agents.firms.Firm;
 import jamel.agents.firms.ProductiveSector;

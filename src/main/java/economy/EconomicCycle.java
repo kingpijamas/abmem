@@ -25,9 +25,7 @@
  * in the United States and other countries.]
  */
 
-package economicCycle;
-
-import jamel.World;
+package economy;
 
 import org.joda.time.DateTime;
 import org.joda.time.Days;
@@ -36,15 +34,15 @@ import org.joda.time.Period;
 import scheduling.cycle.Cycle;
 import utils.Recordable;
 import utils.TransientNumber;
-import economicCycle.events.CreditCheques;
-import economicCycle.events.PayBankDividend;
-import economicCycle.events.PayFirmDividends;
-import economicCycle.events.RunDebtRecovery;
-import economicCycle.events.RunMarket;
-import economicCycle.events.RunProduction;
-import economicCycle.events.UpdateBank;
-import economicCycle.events.UpdateHouseholds;
-import economicCycle.events.UpdateProductiveSector;
+import economy.events.CreditCheques;
+import economy.events.PayBankDividend;
+import economy.events.PayFirmDividends;
+import economy.events.RunDebtRecovery;
+import economy.events.RunMarket;
+import economy.events.RunProduction;
+import economy.events.UpdateBank;
+import economy.events.UpdateHouseholds;
+import economy.events.UpdateProductiveSector;
 
 /**
  * Represents the macro-economic circuit.
@@ -52,28 +50,35 @@ import economicCycle.events.UpdateProductiveSector;
  * Last update: 19-Jun-2011
  */
 public class EconomicCycle extends Cycle {
+	private final Economy economy;
 
-	public EconomicCycle(DateTime start, DateTime end, Period step) {
+	public EconomicCycle(Economy economy, DateTime start, DateTime end,
+			Period step) {
 		super(start, end, step);
+		this.economy = economy;
+	}
+
+	public Economy getEconomy() {
+		return economy;
 	}
 
 	public void init(boolean testing) {
 		addEvent(new Recordable.PollRecordables(), getStart(), Days.ONE);
 		addEvent(new TransientNumber.RefreshTransients(), getStart(), Days.ONE);
-		addEvent(new PayBankDividend(), getStart(), Days.ONE);
-		addEvent(new PayFirmDividends(), getStart(), Days.ONE);
-		addEvent(new RunMarket(World.getInstance().getLaborMarket()),
-				getStart(), Days.ONE);
-		addEvent(new RunProduction(), getStart(), Days.ONE);// TODO: not clear
-															// if this goes here
-		addEvent(new RunMarket(World.getInstance().getGoodsMarket()),
-				getStart(), Days.ONE);
-		addEvent(new UpdateHouseholds(), getStart(), Days.ONE);
-		addEvent(new RunDebtRecovery(), getStart(), Days.ONE);
-		addEvent(new UpdateProductiveSector(), getStart(), Days.ONE);
-		addEvent(new UpdateBank(), getStart(), Days.ONE);
-		addEvent(new CreditCheques(), getStart(), Days.ONE);// TODO: dunno
-															// where this
-															// goes exactly
+		addEvent(new PayBankDividend(economy), getStart(), Days.ONE);
+		addEvent(new PayFirmDividends(economy), getStart(), Days.ONE);
+		addEvent(new RunMarket(economy.getLaborMarket()), getStart(), Days.ONE);
+		addEvent(new RunProduction(economy), getStart(), Days.ONE);// TODO: not
+																	// clear
+		// if this goes here
+		addEvent(new RunMarket(economy.getGoodsMarket()), getStart(), Days.ONE);
+		addEvent(new UpdateHouseholds(economy), getStart(), Days.ONE);
+		addEvent(new RunDebtRecovery(economy), getStart(), Days.ONE);
+		addEvent(new UpdateProductiveSector(economy), getStart(), Days.ONE);
+		addEvent(new UpdateBank(economy), getStart(), Days.ONE);
+		addEvent(new CreditCheques(economy), getStart(), Days.ONE);// TODO:
+																	// dunno
+		// where this
+		// goes exactly
 	}
 }

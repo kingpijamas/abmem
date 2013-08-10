@@ -6,6 +6,7 @@ package jamel.spheres.productive;
 import static org.junit.Assert.fail;
 import jamel.markets.goods.Goods;
 import jamel.markets.labor.Labor;
+import main.EconomicCycleMock;
 
 import org.joda.time.DateTime;
 import org.joda.time.Days;
@@ -15,7 +16,6 @@ import org.junit.Test;
 
 import scheduling.cycle.Cycle;
 import scheduling.schedule.SimulationEvent;
-import economicCycle.EconomicCycle;
 
 /**
  * @author jp
@@ -36,8 +36,8 @@ public class ProductionProcessTest {
 
 	@Before
 	public void setUp() throws Exception {
-		sut = new ProductionProcess(new EconomicCycle(START, END, STEP), PRODUCTIVITY,
-				PRODUCTIONTIME);
+		sut = new ProductionProcess(new EconomicCycleMock(START, END, STEP),
+				PRODUCTIVITY, PRODUCTIONTIME);
 	}
 
 	/**

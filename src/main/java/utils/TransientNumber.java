@@ -6,7 +6,7 @@ import java.util.List;
 import scheduling.cycle.Cycle;
 import scheduling.cycle.CycleElement;
 import scheduling.schedule.SimulationEvent;
-import economicCycle.EconomicCycle;
+import economy.EconomicCycle;
 
 public class TransientNumber extends CycleElement {
 	private static final List<TransientNumber> instances = new LinkedList<TransientNumber>();
@@ -18,17 +18,26 @@ public class TransientNumber extends CycleElement {
 	private int maxlifetimeInPeriods;
 	private int step;
 
-	public TransientNumber(Cycle cycle, double baseValue,
-			int maxlifetimeInPeriods) {
-		super(cycle);
+	public TransientNumber(double baseValue, int maxlifetimeInPeriods) {
 		this.value = baseValue;
 		this.baseValue = baseValue;
 		this.maxlifetimeInPeriods = maxlifetimeInPeriods;
 		this.step = 0;
 	}
 
-	public TransientNumber(EconomicCycle circuit) {
-		this(circuit, DEFAULT_BASE_VALUE, LIFETIME_IN_PERIODS);
+	public TransientNumber(Cycle cycle, double baseValue,
+			int maxlifetimeInPeriods) {
+		this(baseValue, maxlifetimeInPeriods);
+		init(cycle);
+	}
+
+	public TransientNumber() {
+		this(DEFAULT_BASE_VALUE, LIFETIME_IN_PERIODS);
+	}
+
+	public TransientNumber(EconomicCycle cycle) {
+		this(DEFAULT_BASE_VALUE, LIFETIME_IN_PERIODS);
+		init(cycle);
 	}
 
 	public double getValue() {

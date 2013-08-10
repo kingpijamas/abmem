@@ -1,6 +1,5 @@
 package jamel.agents.households;
 
-import jamel.World;
 import jamel.markets.Offering;
 import jamel.markets.goods.Consuming;
 import jamel.markets.goods.Goods;
@@ -8,9 +7,11 @@ import jamel.markets.labor.Worker;
 import jamel.spheres.monetary.Bank;
 import jamel.spheres.monetary.BankAccount;
 import scheduling.cycle.CycleElement;
-import economicCycle.EconomicCycle;
+import economy.Economy;
 
 public class Household extends CycleElement implements Consuming<Goods> {
+	private Economy economy;
+
 	private static int MAX_MARKET_CRAWLING_INTENTS = 1;
 
 	private double savingPropensity;
@@ -21,16 +22,17 @@ public class Household extends CycleElement implements Consuming<Goods> {
 	private long consumptionBudget;
 	private Offering<Goods> preferredProvider;
 
-	public Household(EconomicCycle circuit, Bank bank, double savingPropensity) {
-		super(circuit);
+	public Household(Economy economy, Bank bank, double savingPropensity) {
+		super(economy.getCycle());
+		this.economy = economy;
 		this.savingPropensity = savingPropensity;
 		this.account = bank.openAccount();
-		this.worker = new Worker(circuit, account);
+		this.worker = new Worker(economy.getCycle(), account);
 	}
 
-	public void enterMarkets() {
-		World.getInstance().getGoodsMarket().add(this);
-		World.getInstance().getLaborMarket().add(worker);
+	public void init() {
+		economy.getGoodsMarket().add(this);
+		economy.getLaborMarket().add(worker);
 	}
 
 	/*

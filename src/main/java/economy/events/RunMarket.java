@@ -1,4 +1,4 @@
-package economicCycle.events;
+package economy.events;
 
 import jamel.markets.Market;
 import scheduling.schedule.SimulationEvent;
