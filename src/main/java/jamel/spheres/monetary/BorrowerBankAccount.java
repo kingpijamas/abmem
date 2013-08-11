@@ -34,8 +34,8 @@ public class BorrowerBankAccount extends BankAccount {
 		if (amount < 0) {
 			throw new IllegalArgumentException();
 		}
-		if (getAvailableAmount() < amount) {
-			getBank().lend(this, amount - getAvailableAmount());
+		if (getDeposit() < amount) {
+			getBank().lend(this, amount - getDeposit());
 		}
 		super.transfer(payee, amount);
 	}
@@ -49,10 +49,10 @@ public class BorrowerBankAccount extends BankAccount {
 		if (amount < 0) {
 			throw new IllegalArgumentException("Subtracting a negative amount");
 		}
-		if (getAvailableAmount() < amount) {
+		if (getDeposit() < amount) {
 			throw new IllegalArgumentException();
 		}
-		setDeposit(getAvailableAmount() - amount);
+		setDeposit(getDeposit() - amount);
 	}
 
 	@Override

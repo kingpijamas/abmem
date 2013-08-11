@@ -1,4 +1,4 @@
-package main;
+package mocks;
 
 import org.joda.time.DateTime;
 import org.joda.time.Period;

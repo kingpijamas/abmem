@@ -102,10 +102,10 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 	 */
 	public void update() {// VALIDATED
 		for (BankAccount account : accounts) {
-			deposits += account.getAvailableAmount();
+			deposits += account.getDeposit();
 		}
 		for (BorrowerBankAccount account : borrowerAccounts) {
-			deposits += account.getAvailableAmount();
+			deposits += account.getDeposit();
 			debts += account.getTotalDebt();
 		}
 	}
@@ -200,8 +200,7 @@ public class Bank extends CycleElement {// VALIDATED: contains the entire Bank
 
 	public void payDividend() {// VALIDATED
 		long dividend = calculateDividend();
-		if (dividend > 0) {// TODO: bank profits? where are they? were they
-							// useful?
+		if (dividend > 0) {
 			owner.credit(dividend);
 		}
 	}

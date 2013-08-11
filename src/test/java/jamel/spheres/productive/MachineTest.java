@@ -3,7 +3,7 @@ package jamel.spheres.productive;
 import static org.junit.Assert.fail;
 import jamel.markets.goods.Goods;
 import jamel.markets.labor.Labor;
-import main.EconomicCycleMock;
+import mocks.EconomicCycleMock;
 
 import org.joda.time.DateTime;
 import org.joda.time.Days;

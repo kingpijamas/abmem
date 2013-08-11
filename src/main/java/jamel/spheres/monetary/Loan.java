@@ -70,18 +70,43 @@ public class Loan extends ExpiringElement implements Comparable<Loan> {
 			return; // Le compte est "prot�g�", on ne d�grade pas la
 					// cr�ance.
 		}
-		if (quality == LoanQualities.DOUBTFUL) {
+		switch (quality) {
+		case DOUBTFUL:
 			if (!account.getBank().isAccommodating()) {
 				quality = LoanQualities.BAD; // La banque est accommodante, on
 												// ne
 												// d�grade pas la
 				// cr�ance.
 			}
-		} else if (quality == LoanQualities.GOOD) {
+			break;
+		case GOOD:
 			quality = LoanQualities.DOUBTFUL;
 			interestRate *= 2;
 		}
 		return;
+	}
+
+	/**
+	 * Pays interest due.
+	 */
+	void payInterest() {
+		if (lastInterestPayment != null
+				&& lastInterestPayment.compareTo(getDate()) >= 0) {
+			throw new UnexpectedInvocationException("Interest already paid.");
+		}
+		long interestDue = calculateInterest();
+		if (account.getDeposit() < interestDue) {
+			long newDebt = interestDue - account.getDeposit();
+			principal += newDebt;
+			account.credit(newDebt);
+		}
+		if (interestDue != 0) {
+			if (interestDue < 0) {
+				throw new IllegalArgumentException("Negative interest.");
+			}
+			account.subtractForLoans(interestDue);
+		}
+		lastInterestPayment = getDate();
 	}
 
 	/**
@@ -93,13 +118,13 @@ public class Loan extends ExpiringElement implements Comparable<Loan> {
 			throw new IllegalArgumentException("Unexpected bad loan");
 		}
 		if (isExpirationTime()) {
-			repayment = Math.min(account.getAvailableAmount(), principal);
+			repayment = Math.min(account.getDeposit(), principal);
 			expire();
 		} else {
 			if (quality == LoanQualities.GOOD) {
 				return;
 			} else if (quality == LoanQualities.DOUBTFUL) {
-				repayment = Math.min(account.getAvailableAmount(), principal);
+				repayment = Math.min(account.getDeposit(), principal);
 			}
 		}
 		account.subtractForLoans(repayment);
@@ -108,33 +133,12 @@ public class Loan extends ExpiringElement implements Comparable<Loan> {
 
 	@Override
 	protected void expire() {
-		extendExpiration();// XXX: (just style; works well)
+		extendExpiration();// XXX: (just style; works fine)
 		downgrade();
 	}
 
-	/**
-	 * Pays interest due.
-	 */
-	void payInterest() {
-		if (lastInterestPayment != null
-				&& lastInterestPayment.compareTo(getDate()) >= 0) {
-			throw new UnexpectedInvocationException("Interest already paid.");
-		}
-		long payment = (long) (principal * interestRate);
-		if (account.getAvailableAmount() < payment) {
-			long newDebt = payment - account.getAvailableAmount();
-			principal += newDebt;
-			account.credit(newDebt);
-		}
-		if (payment != 0) {
-			if (payment < 0) {
-				throw new IllegalArgumentException("Negative interest.");
-			}
-			// System.out.println(account);
-			// System.out.println("Subtracting interest of " + payment);
-			account.subtractForLoans(payment);
-		}
-		lastInterestPayment = getDate();
+	long calculateInterest() {
+		return (long) (principal * interestRate);
 	}
 
 	/**

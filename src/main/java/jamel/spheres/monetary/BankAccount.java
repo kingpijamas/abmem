@@ -69,7 +69,7 @@ public class BankAccount extends CycleElement {
 	 * 
 	 * @return a long integer.
 	 */
-	public long getAvailableAmount() {
+	public long getDeposit() {
 		return deposit;
 	}
 
@@ -116,7 +116,7 @@ public class BankAccount extends CycleElement {
 	}
 
 	public long getCapital() {
-		return getAvailableAmount();
+		return getDeposit();
 	}
 
 	public long getUnavailableAmount() {

@@ -1,9 +1,7 @@
 package jamel.spheres.monetary;
 
 import static org.junit.Assert.fail;
-import jamel.spheres.monetary.Bank;
-import jamel.spheres.monetary.Borrower;
-import main.EconomyMock;
+import mocks.EconomyMock;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,12 +9,14 @@ import org.junit.Test;
 import economy.Economy;
 
 public class BankTest {
+	private static final long STARTING_ASSETS = 1000;
 	private Bank sut;
 
 	@Before
 	public void setUp() throws Exception {
 		Economy world = new EconomyMock();
 		sut = world.getBank();
+		setAssets(STARTING_ASSETS);
 	}
 
 	@Test
@@ -55,8 +55,24 @@ public class BankTest {
 	}
 
 	@Test
-	public void testPayDividend() {
-		fail("Not yet implemented");
+	public void testPayDividend() {// TODO: check if this is enough
+		long prevCapital = sut.getCapital();
+		long prevAssets = sut.getAssets();
+		long prevLiabilities = sut.getLiabilities();
+		long dividend = sut.calculateDividend();
+
+		sut.payDividend();
+
+		long expectedLiabilities = prevLiabilities + dividend;
+		long expectedAssets = prevAssets;
+		long expectedCapital = prevCapital - dividend;
+
+		boolean liabilitiesFailed = sut.getLiabilities() != expectedLiabilities;
+		boolean assetsFailed = sut.getAssets() != expectedAssets;
+		boolean capitalFailed = sut.getCapital() != expectedCapital;
+		if (liabilitiesFailed || assetsFailed || capitalFailed) {
+			fail();
+		}
 	}
 
 	@Test
@@ -78,8 +94,6 @@ public class BankTest {
 
 	@Test
 	public void testCalculateDividend() {
-		long assets = 1000;
-		setAssets(assets);
 		long targetCapital = (long) (sut.getCapitalRatio() * sut.getAssets());
 		long result = sut.calculateDividend();
 		long expected = 0;

@@ -42,14 +42,14 @@ public class Household extends CycleElement implements Consuming<Goods> {
 		long yearlyIncome = worker.getYearlyIncome();
 		long savingsTarget = (long) (yearlyIncome * savingPropensity);
 		long averageIncome = yearlyIncome / 12; // TODO: check!
-		long savings = account.getAvailableAmount() - averageIncome;
+		long savings = account.getDeposit() - averageIncome;
 		long consumptionTarget;
 		if (savings < savingsTarget) {
 			consumptionTarget = (long) ((1. - savingPropensity) * averageIncome);
 		} else {
 			consumptionTarget = averageIncome + (savings - savingsTarget) / 2;
 		}
-		consumptionBudget = Math.min(account.getAvailableAmount(),
+		consumptionBudget = Math.min(account.getDeposit(),
 				consumptionTarget);
 	}
 
@@ -79,7 +79,7 @@ public class Household extends CycleElement implements Consuming<Goods> {
 	@Override
 	public String toString() {
 		String ans = super.toString();
-		ans += "\nAccount: " + account.getAvailableAmount();
+		ans += "\nAccount: " + account.getDeposit();
 		ans += "\nUnavailable: " + account.getUnavailableAmount();
 		ans += "\nConsumption Budget: " + consumptionBudget;
 		ans += "\nPreferredProvider:\n\t" + preferredProvider;

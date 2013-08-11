@@ -1,4 +1,4 @@
-package main;
+package mocks;
 import jamel.agents.firms.ProductiveSector;
 import jamel.agents.households.Household;
 import jamel.spheres.monetary.Bank;

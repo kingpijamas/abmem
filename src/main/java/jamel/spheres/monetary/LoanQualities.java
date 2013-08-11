@@ -27,20 +27,16 @@
 
 package jamel.spheres.monetary;
 
-/**
- * Enumerates the types of debt quality.
- * <p>
- * Last update: 28-Nov-2010.
- */
 public enum LoanQualities {
-	
-	/** Bad debt. */
-	BAD,
-	
-	/** Doubtful debt. */
-	DOUBTFUL,
-	
-	/** Good debt. */
-	GOOD ;
-	
+	BAD(0), DOUBTFUL(1), GOOD(2);
+
+	private int orderNumber;
+
+	private LoanQualities(int order) {
+		this.orderNumber = order;
+	}
+
+	static int compare(LoanQualities lq1, LoanQualities lq2) {
+		return lq1.orderNumber - lq2.orderNumber;
+	}
 }

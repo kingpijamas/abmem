@@ -1,4 +1,5 @@
 package main;
+import mocks.EconomyMock;
 import economy.Economy;
 
 public class Main {
